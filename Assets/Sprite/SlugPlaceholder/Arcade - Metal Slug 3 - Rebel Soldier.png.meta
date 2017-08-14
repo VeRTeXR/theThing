@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: 0b90dca9ec7964e968fcc95a3190a97c
+timeCreated: 1489653649
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Arcade - Metal Slug 3 - Rebel Soldier_0
+    21300002: Arcade - Metal Slug 3 - Rebel Soldier_1
+    21300004: Arcade - Metal Slug 3 - Rebel Soldier_2
+    21300006: Arcade - Metal Slug 3 - Rebel Soldier_3
+    21300008: Arcade - Metal Slug 3 - Rebel Soldier_4
+    21300010: Arcade - Metal Slug 3 - Rebel Soldier_5
+    21300012: Arcade - Metal Slug 3 - Rebel Soldier_6
+    21300014: Arcade - Metal Slug 3 - Rebel Soldier_7
+    21300016: Arcade - Metal Slug 3 - Rebel Soldier_8
+    21300018: Arcade - Metal Slug 3 - Rebel Soldier_9
+    21300020: Arcade - Metal Slug 3 - Rebel Soldier_10
+    21300022: Arcade - Metal Slug 3 - Rebel Soldier_11
+    21300024: Arcade - Metal Slug 3 - Rebel Soldier_12
+    21300026: Arcade - Metal Slug 3 - Rebel Soldier_13
+    21300028: Arcade - Metal Slug 3 - Rebel Soldier_14
+    21300030: Arcade - Metal Slug 3 - Rebel Soldier_15
+    21300032: Arcade - Metal Slug 3 - Rebel Soldier_16
+    21300034: Arcade - Metal Slug 3 - Rebel Soldier_17
+    21300036: Arcade - Metal Slug 3 - Rebel Soldier_18
+    21300038: Arcade - Metal Slug 3 - Rebel Soldier_19
+    21300040: Arcade - Metal Slug 3 - Rebel Soldier_20
+    21300042: Arcade - Metal Slug 3 - Rebel Soldier_21
+    21300044: Arcade - Metal Slug 3 - Rebel Soldier_22
+    21300046: Arcade - Metal Slug 3 - Rebel Soldier_23
+    21300048: Arcade - Metal Slug 3 - Rebel Soldier_24
+    21300050: Arcade - Metal Slug 3 - Rebel Soldier_25
+    21300052: Arcade - Metal Slug 3 - Rebel Soldier_26
+    21300054: Arcade - Metal Slug 3 - Rebel Soldier_27
+    21300056: Arcade - Metal Slug 3 - Rebel Soldier_28
+    21300058: Arcade - Metal Slug 3 - Rebel Soldier_29
+    21300060: Arcade - Metal Slug 3 - Rebel Soldier_30
+    21300062: Arcade - Metal Slug 3 - Rebel Soldier_31
+    21300064: Arcade - Metal Slug 3 - Rebel Soldier_32
+    21300066: Arcade - Metal Slug 3 - Rebel Soldier_33
+    21300068: Arcade - Metal Slug 3 - Rebel Soldier_34
+    21300070: Arcade - Metal Slug 3 - Rebel Soldier_35
+    21300072: Arcade - Metal Slug 3 - Rebel Soldier_36
+    21300074: Arcade - Metal Slug 3 - Rebel Soldier_37
+    21300076: Arcade - Metal Slug 3 - Rebel Soldier_38
+    21300078: Arcade - Metal Slug 3 - Rebel Soldier_39
+    21300080: Arcade - Metal Slug 3 - Rebel Soldier_40
+    21300082: Arcade - Metal Slug 3 - Rebel Soldier_41
+    21300084: Arcade - Metal Slug 3 - Rebel Soldier_42
+    21300086: Arcade - Metal Slug 3 - Rebel Soldier_43
+    21300088: Arcade - Metal Slug 3 - Rebel Soldier_44
+    21300090: Arcade - Metal Slug 3 - Rebel Soldier_45
+    21300092: Arcade - Metal Slug 3 - Rebel Soldier_46
+    21300094: Arcade - Metal Slug 3 - Rebel Soldier_47
+    21300096: Arcade - Metal Slug 3 - Rebel Soldier_48
+    21300098: Arcade - Metal Slug 3 - Rebel Soldier_49
+    21300100: Arcade - Metal Slug 3 - Rebel Soldier_50
+    21300102: Arcade - Metal Slug 3 - Rebel Soldier_51
+    21300104: Arcade - Metal Slug 3 - Rebel Soldier_52
+    21300106: Arcade - Metal Slug 3 - Rebel Soldier_53
+    21300108: Arcade - Metal Slug 3 - Rebel Soldier_54
+    21300110: Arcade - Metal Slug 3 - Rebel Soldier_55
+    21300112: Arcade - Metal Slug 3 - Rebel Soldier_56
+    21300114: Arcade - Metal Slug 3 - Rebel Soldier_57
+    21300116: Arcade - Metal Slug 3 - Rebel Soldier_58
+    21300118: Arcade - Metal Slug 3 - Rebel Soldier_59
+    21300120: Arcade - Metal Slug 3 - Rebel Soldier_60
+    21300122: Arcade - Metal Slug 3 - Rebel Soldier_61
+    21300124: Arcade - Metal Slug 3 - Rebel Soldier_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 80
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 706
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 706
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 706
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 706
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 706
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 706
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 706
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_7
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 706
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 706
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_9
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 706
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_10
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 706
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 706
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 706
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1128
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2250
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2250
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2251
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2251
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2250
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2251
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2250
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2251
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2250
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2251
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_25
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2250
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_26
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 2206
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2208
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_28
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2207
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_29
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2208
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_30
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2207
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_31
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2250
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_32
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2251
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_33
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2251
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_34
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2251
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2294
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2294
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2294
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2294
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1839
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1839
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1839
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_42
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1839
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_43
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1840
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1840
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_45
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1840
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_46
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1840
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_47
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1839
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_48
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1839
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_49
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1839
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_50
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1840
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_51
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1840
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_52
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1840
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_53
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2206
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2206
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_55
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 2206
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2206
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_57
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2206
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_58
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2206
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_59
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 2206
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_60
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 2205
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_61
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2206
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Rebel Soldier_62
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 2206
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

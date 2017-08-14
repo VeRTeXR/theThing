@@ -1,0 +1,5393 @@
+fileFormatVersion: 2
+guid: e281364238aea4be2ac57099a2ebfb9c
+timeCreated: 1489133565
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Arcade - Metal Slug 3 - Explosion SFX_0
+    21300002: Arcade - Metal Slug 3 - Explosion SFX_1
+    21300004: Arcade - Metal Slug 3 - Explosion SFX_2
+    21300006: Arcade - Metal Slug 3 - Explosion SFX_3
+    21300008: Arcade - Metal Slug 3 - Explosion SFX_4
+    21300010: Arcade - Metal Slug 3 - Explosion SFX_5
+    21300012: Arcade - Metal Slug 3 - Explosion SFX_6
+    21300014: Arcade - Metal Slug 3 - Explosion SFX_7
+    21300016: Arcade - Metal Slug 3 - Explosion SFX_8
+    21300018: Arcade - Metal Slug 3 - Explosion SFX_9
+    21300020: Arcade - Metal Slug 3 - Explosion SFX_10
+    21300022: Arcade - Metal Slug 3 - Explosion SFX_11
+    21300024: Arcade - Metal Slug 3 - Explosion SFX_12
+    21300026: Arcade - Metal Slug 3 - Explosion SFX_13
+    21300028: Arcade - Metal Slug 3 - Explosion SFX_14
+    21300030: Arcade - Metal Slug 3 - Explosion SFX_15
+    21300032: Arcade - Metal Slug 3 - Explosion SFX_16
+    21300034: Arcade - Metal Slug 3 - Explosion SFX_17
+    21300036: Arcade - Metal Slug 3 - Explosion SFX_18
+    21300038: Arcade - Metal Slug 3 - Explosion SFX_19
+    21300040: Arcade - Metal Slug 3 - Explosion SFX_20
+    21300042: Arcade - Metal Slug 3 - Explosion SFX_21
+    21300044: Arcade - Metal Slug 3 - Explosion SFX_22
+    21300046: Arcade - Metal Slug 3 - Explosion SFX_23
+    21300048: Arcade - Metal Slug 3 - Explosion SFX_24
+    21300050: Arcade - Metal Slug 3 - Explosion SFX_25
+    21300052: Arcade - Metal Slug 3 - Explosion SFX_26
+    21300054: Arcade - Metal Slug 3 - Explosion SFX_27
+    21300056: Arcade - Metal Slug 3 - Explosion SFX_28
+    21300058: Arcade - Metal Slug 3 - Explosion SFX_29
+    21300060: Arcade - Metal Slug 3 - Explosion SFX_30
+    21300062: Arcade - Metal Slug 3 - Explosion SFX_31
+    21300064: Arcade - Metal Slug 3 - Explosion SFX_32
+    21300066: Arcade - Metal Slug 3 - Explosion SFX_33
+    21300068: Arcade - Metal Slug 3 - Explosion SFX_34
+    21300070: Arcade - Metal Slug 3 - Explosion SFX_35
+    21300072: Arcade - Metal Slug 3 - Explosion SFX_36
+    21300074: Arcade - Metal Slug 3 - Explosion SFX_37
+    21300076: Arcade - Metal Slug 3 - Explosion SFX_38
+    21300078: Arcade - Metal Slug 3 - Explosion SFX_39
+    21300080: Arcade - Metal Slug 3 - Explosion SFX_40
+    21300082: Arcade - Metal Slug 3 - Explosion SFX_41
+    21300084: Arcade - Metal Slug 3 - Explosion SFX_42
+    21300086: Arcade - Metal Slug 3 - Explosion SFX_43
+    21300088: Arcade - Metal Slug 3 - Explosion SFX_44
+    21300090: Arcade - Metal Slug 3 - Explosion SFX_45
+    21300092: Arcade - Metal Slug 3 - Explosion SFX_46
+    21300094: Arcade - Metal Slug 3 - Explosion SFX_47
+    21300096: Arcade - Metal Slug 3 - Explosion SFX_48
+    21300098: Arcade - Metal Slug 3 - Explosion SFX_49
+    21300100: Arcade - Metal Slug 3 - Explosion SFX_50
+    21300102: Arcade - Metal Slug 3 - Explosion SFX_51
+    21300104: Arcade - Metal Slug 3 - Explosion SFX_52
+    21300106: Arcade - Metal Slug 3 - Explosion SFX_53
+    21300108: Arcade - Metal Slug 3 - Explosion SFX_54
+    21300110: Arcade - Metal Slug 3 - Explosion SFX_55
+    21300112: Arcade - Metal Slug 3 - Explosion SFX_56
+    21300114: Arcade - Metal Slug 3 - Explosion SFX_57
+    21300116: Arcade - Metal Slug 3 - Explosion SFX_58
+    21300118: Arcade - Metal Slug 3 - Explosion SFX_59
+    21300120: Arcade - Metal Slug 3 - Explosion SFX_60
+    21300122: Arcade - Metal Slug 3 - Explosion SFX_61
+    21300124: Arcade - Metal Slug 3 - Explosion SFX_62
+    21300126: Arcade - Metal Slug 3 - Explosion SFX_63
+    21300128: Arcade - Metal Slug 3 - Explosion SFX_64
+    21300130: Arcade - Metal Slug 3 - Explosion SFX_65
+    21300132: Arcade - Metal Slug 3 - Explosion SFX_66
+    21300134: Arcade - Metal Slug 3 - Explosion SFX_67
+    21300136: Arcade - Metal Slug 3 - Explosion SFX_68
+    21300138: Arcade - Metal Slug 3 - Explosion SFX_69
+    21300140: Arcade - Metal Slug 3 - Explosion SFX_70
+    21300142: Arcade - Metal Slug 3 - Explosion SFX_71
+    21300144: Arcade - Metal Slug 3 - Explosion SFX_72
+    21300146: Arcade - Metal Slug 3 - Explosion SFX_73
+    21300148: Arcade - Metal Slug 3 - Explosion SFX_74
+    21300150: Arcade - Metal Slug 3 - Explosion SFX_75
+    21300152: Arcade - Metal Slug 3 - Explosion SFX_76
+    21300154: Arcade - Metal Slug 3 - Explosion SFX_77
+    21300156: Arcade - Metal Slug 3 - Explosion SFX_78
+    21300158: Arcade - Metal Slug 3 - Explosion SFX_79
+    21300160: Arcade - Metal Slug 3 - Explosion SFX_80
+    21300162: Arcade - Metal Slug 3 - Explosion SFX_81
+    21300164: Arcade - Metal Slug 3 - Explosion SFX_82
+    21300166: Arcade - Metal Slug 3 - Explosion SFX_83
+    21300168: Arcade - Metal Slug 3 - Explosion SFX_84
+    21300170: Arcade - Metal Slug 3 - Explosion SFX_85
+    21300172: Arcade - Metal Slug 3 - Explosion SFX_86
+    21300174: Arcade - Metal Slug 3 - Explosion SFX_87
+    21300176: Arcade - Metal Slug 3 - Explosion SFX_88
+    21300178: Arcade - Metal Slug 3 - Explosion SFX_89
+    21300180: Arcade - Metal Slug 3 - Explosion SFX_90
+    21300182: Arcade - Metal Slug 3 - Explosion SFX_91
+    21300184: Arcade - Metal Slug 3 - Explosion SFX_92
+    21300186: Arcade - Metal Slug 3 - Explosion SFX_93
+    21300188: Arcade - Metal Slug 3 - Explosion SFX_94
+    21300190: Arcade - Metal Slug 3 - Explosion SFX_95
+    21300192: Arcade - Metal Slug 3 - Explosion SFX_96
+    21300194: Arcade - Metal Slug 3 - Explosion SFX_97
+    21300196: Arcade - Metal Slug 3 - Explosion SFX_98
+    21300198: Arcade - Metal Slug 3 - Explosion SFX_99
+    21300200: Arcade - Metal Slug 3 - Explosion SFX_100
+    21300202: Arcade - Metal Slug 3 - Explosion SFX_101
+    21300204: Arcade - Metal Slug 3 - Explosion SFX_102
+    21300206: Arcade - Metal Slug 3 - Explosion SFX_103
+    21300208: Arcade - Metal Slug 3 - Explosion SFX_104
+    21300210: Arcade - Metal Slug 3 - Explosion SFX_105
+    21300212: Arcade - Metal Slug 3 - Explosion SFX_106
+    21300214: Arcade - Metal Slug 3 - Explosion SFX_107
+    21300216: Arcade - Metal Slug 3 - Explosion SFX_108
+    21300218: Arcade - Metal Slug 3 - Explosion SFX_109
+    21300220: Arcade - Metal Slug 3 - Explosion SFX_110
+    21300222: Arcade - Metal Slug 3 - Explosion SFX_111
+    21300224: Arcade - Metal Slug 3 - Explosion SFX_112
+    21300226: Arcade - Metal Slug 3 - Explosion SFX_113
+    21300228: Arcade - Metal Slug 3 - Explosion SFX_114
+    21300230: Arcade - Metal Slug 3 - Explosion SFX_115
+    21300232: Arcade - Metal Slug 3 - Explosion SFX_116
+    21300234: Arcade - Metal Slug 3 - Explosion SFX_117
+    21300236: Arcade - Metal Slug 3 - Explosion SFX_118
+    21300238: Arcade - Metal Slug 3 - Explosion SFX_119
+    21300240: Arcade - Metal Slug 3 - Explosion SFX_120
+    21300242: Arcade - Metal Slug 3 - Explosion SFX_121
+    21300244: Arcade - Metal Slug 3 - Explosion SFX_122
+    21300246: Arcade - Metal Slug 3 - Explosion SFX_123
+    21300248: Arcade - Metal Slug 3 - Explosion SFX_124
+    21300250: Arcade - Metal Slug 3 - Explosion SFX_125
+    21300252: Arcade - Metal Slug 3 - Explosion SFX_126
+    21300254: Arcade - Metal Slug 3 - Explosion SFX_127
+    21300256: Arcade - Metal Slug 3 - Explosion SFX_128
+    21300258: Arcade - Metal Slug 3 - Explosion SFX_129
+    21300260: Arcade - Metal Slug 3 - Explosion SFX_130
+    21300262: Arcade - Metal Slug 3 - Explosion SFX_131
+    21300264: Arcade - Metal Slug 3 - Explosion SFX_132
+    21300266: Arcade - Metal Slug 3 - Explosion SFX_133
+    21300268: Arcade - Metal Slug 3 - Explosion SFX_134
+    21300270: Arcade - Metal Slug 3 - Explosion SFX_135
+    21300272: Arcade - Metal Slug 3 - Explosion SFX_136
+    21300274: Arcade - Metal Slug 3 - Explosion SFX_137
+    21300276: Arcade - Metal Slug 3 - Explosion SFX_138
+    21300278: Arcade - Metal Slug 3 - Explosion SFX_139
+    21300280: Arcade - Metal Slug 3 - Explosion SFX_140
+    21300282: Arcade - Metal Slug 3 - Explosion SFX_141
+    21300284: Arcade - Metal Slug 3 - Explosion SFX_142
+    21300286: Arcade - Metal Slug 3 - Explosion SFX_143
+    21300288: Arcade - Metal Slug 3 - Explosion SFX_144
+    21300290: Arcade - Metal Slug 3 - Explosion SFX_145
+    21300292: Arcade - Metal Slug 3 - Explosion SFX_146
+    21300294: Arcade - Metal Slug 3 - Explosion SFX_147
+    21300296: Arcade - Metal Slug 3 - Explosion SFX_148
+    21300298: Arcade - Metal Slug 3 - Explosion SFX_149
+    21300300: Arcade - Metal Slug 3 - Explosion SFX_150
+    21300302: Arcade - Metal Slug 3 - Explosion SFX_151
+    21300304: Arcade - Metal Slug 3 - Explosion SFX_152
+    21300306: Arcade - Metal Slug 3 - Explosion SFX_153
+    21300308: Arcade - Metal Slug 3 - Explosion SFX_154
+    21300310: Arcade - Metal Slug 3 - Explosion SFX_155
+    21300312: Arcade - Metal Slug 3 - Explosion SFX_156
+    21300314: Arcade - Metal Slug 3 - Explosion SFX_157
+    21300316: Arcade - Metal Slug 3 - Explosion SFX_158
+    21300318: Arcade - Metal Slug 3 - Explosion SFX_159
+    21300320: Arcade - Metal Slug 3 - Explosion SFX_160
+    21300322: Arcade - Metal Slug 3 - Explosion SFX_161
+    21300324: Arcade - Metal Slug 3 - Explosion SFX_162
+    21300326: Arcade - Metal Slug 3 - Explosion SFX_163
+    21300328: Arcade - Metal Slug 3 - Explosion SFX_164
+    21300330: Arcade - Metal Slug 3 - Explosion SFX_165
+    21300332: Arcade - Metal Slug 3 - Explosion SFX_166
+    21300334: Arcade - Metal Slug 3 - Explosion SFX_167
+    21300336: Arcade - Metal Slug 3 - Explosion SFX_168
+    21300338: Arcade - Metal Slug 3 - Explosion SFX_169
+    21300340: Arcade - Metal Slug 3 - Explosion SFX_170
+    21300342: Arcade - Metal Slug 3 - Explosion SFX_171
+    21300344: Arcade - Metal Slug 3 - Explosion SFX_172
+    21300346: Arcade - Metal Slug 3 - Explosion SFX_173
+    21300348: Arcade - Metal Slug 3 - Explosion SFX_174
+    21300350: Arcade - Metal Slug 3 - Explosion SFX_175
+    21300352: Arcade - Metal Slug 3 - Explosion SFX_176
+    21300354: Arcade - Metal Slug 3 - Explosion SFX_177
+    21300356: Arcade - Metal Slug 3 - Explosion SFX_178
+    21300358: Arcade - Metal Slug 3 - Explosion SFX_179
+    21300360: Arcade - Metal Slug 3 - Explosion SFX_180
+    21300362: Arcade - Metal Slug 3 - Explosion SFX_181
+    21300364: Arcade - Metal Slug 3 - Explosion SFX_182
+    21300366: Arcade - Metal Slug 3 - Explosion SFX_183
+    21300368: Arcade - Metal Slug 3 - Explosion SFX_184
+    21300370: Arcade - Metal Slug 3 - Explosion SFX_185
+    21300372: Arcade - Metal Slug 3 - Explosion SFX_186
+    21300374: Arcade - Metal Slug 3 - Explosion SFX_187
+    21300376: Arcade - Metal Slug 3 - Explosion SFX_188
+    21300378: Arcade - Metal Slug 3 - Explosion SFX_189
+    21300380: Arcade - Metal Slug 3 - Explosion SFX_190
+    21300382: Arcade - Metal Slug 3 - Explosion SFX_191
+    21300384: Arcade - Metal Slug 3 - Explosion SFX_192
+    21300386: Arcade - Metal Slug 3 - Explosion SFX_193
+    21300388: Arcade - Metal Slug 3 - Explosion SFX_194
+    21300390: Arcade - Metal Slug 3 - Explosion SFX_195
+    21300392: Arcade - Metal Slug 3 - Explosion SFX_196
+    21300394: Arcade - Metal Slug 3 - Explosion SFX_197
+    21300396: Arcade - Metal Slug 3 - Explosion SFX_198
+    21300398: Arcade - Metal Slug 3 - Explosion SFX_199
+    21300400: Arcade - Metal Slug 3 - Explosion SFX_200
+    21300402: Arcade - Metal Slug 3 - Explosion SFX_201
+    21300404: Arcade - Metal Slug 3 - Explosion SFX_202
+    21300406: Arcade - Metal Slug 3 - Explosion SFX_203
+    21300408: Arcade - Metal Slug 3 - Explosion SFX_204
+    21300410: Arcade - Metal Slug 3 - Explosion SFX_205
+    21300412: Arcade - Metal Slug 3 - Explosion SFX_206
+    21300414: Arcade - Metal Slug 3 - Explosion SFX_207
+    21300416: Arcade - Metal Slug 3 - Explosion SFX_208
+    21300418: Arcade - Metal Slug 3 - Explosion SFX_209
+    21300420: Arcade - Metal Slug 3 - Explosion SFX_210
+    21300422: Arcade - Metal Slug 3 - Explosion SFX_211
+    21300424: Arcade - Metal Slug 3 - Explosion SFX_212
+    21300426: Arcade - Metal Slug 3 - Explosion SFX_213
+    21300428: Arcade - Metal Slug 3 - Explosion SFX_214
+    21300430: Arcade - Metal Slug 3 - Explosion SFX_215
+    21300432: Arcade - Metal Slug 3 - Explosion SFX_216
+    21300434: Arcade - Metal Slug 3 - Explosion SFX_217
+    21300436: Arcade - Metal Slug 3 - Explosion SFX_218
+    21300438: Arcade - Metal Slug 3 - Explosion SFX_219
+    21300440: Arcade - Metal Slug 3 - Explosion SFX_220
+    21300442: Arcade - Metal Slug 3 - Explosion SFX_221
+    21300444: Arcade - Metal Slug 3 - Explosion SFX_222
+    21300446: Arcade - Metal Slug 3 - Explosion SFX_223
+    21300448: Arcade - Metal Slug 3 - Explosion SFX_224
+    21300450: Arcade - Metal Slug 3 - Explosion SFX_225
+    21300452: Arcade - Metal Slug 3 - Explosion SFX_226
+    21300454: Arcade - Metal Slug 3 - Explosion SFX_227
+    21300456: Arcade - Metal Slug 3 - Explosion SFX_228
+    21300458: Arcade - Metal Slug 3 - Explosion SFX_229
+    21300460: Arcade - Metal Slug 3 - Explosion SFX_230
+    21300462: Arcade - Metal Slug 3 - Explosion SFX_231
+    21300464: Arcade - Metal Slug 3 - Explosion SFX_232
+    21300466: Arcade - Metal Slug 3 - Explosion SFX_233
+    21300468: Arcade - Metal Slug 3 - Explosion SFX_234
+    21300470: Arcade - Metal Slug 3 - Explosion SFX_235
+    21300472: Arcade - Metal Slug 3 - Explosion SFX_236
+    21300474: Arcade - Metal Slug 3 - Explosion SFX_237
+    21300476: Arcade - Metal Slug 3 - Explosion SFX_238
+    21300478: Arcade - Metal Slug 3 - Explosion SFX_239
+    21300480: Arcade - Metal Slug 3 - Explosion SFX_240
+    21300482: Arcade - Metal Slug 3 - Explosion SFX_241
+    21300484: Arcade - Metal Slug 3 - Explosion SFX_242
+    21300486: Arcade - Metal Slug 3 - Explosion SFX_243
+    21300488: Arcade - Metal Slug 3 - Explosion SFX_244
+    21300490: Arcade - Metal Slug 3 - Explosion SFX_245
+    21300492: Arcade - Metal Slug 3 - Explosion SFX_246
+    21300494: Arcade - Metal Slug 3 - Explosion SFX_247
+    21300496: Arcade - Metal Slug 3 - Explosion SFX_248
+    21300498: Arcade - Metal Slug 3 - Explosion SFX_249
+    21300500: Arcade - Metal Slug 3 - Explosion SFX_250
+    21300502: Arcade - Metal Slug 3 - Explosion SFX_251
+    21300504: Arcade - Metal Slug 3 - Explosion SFX_252
+    21300506: Arcade - Metal Slug 3 - Explosion SFX_253
+    21300508: Arcade - Metal Slug 3 - Explosion SFX_254
+    21300510: Arcade - Metal Slug 3 - Explosion SFX_255
+    21300512: Arcade - Metal Slug 3 - Explosion SFX_256
+    21300514: Arcade - Metal Slug 3 - Explosion SFX_257
+    21300516: Arcade - Metal Slug 3 - Explosion SFX_258
+    21300518: Arcade - Metal Slug 3 - Explosion SFX_259
+    21300520: Arcade - Metal Slug 3 - Explosion SFX_260
+    21300522: Arcade - Metal Slug 3 - Explosion SFX_261
+    21300524: Arcade - Metal Slug 3 - Explosion SFX_262
+    21300526: Arcade - Metal Slug 3 - Explosion SFX_263
+    21300528: Arcade - Metal Slug 3 - Explosion SFX_264
+    21300530: Arcade - Metal Slug 3 - Explosion SFX_265
+    21300532: Arcade - Metal Slug 3 - Explosion SFX_266
+    21300534: Arcade - Metal Slug 3 - Explosion SFX_267
+    21300536: Arcade - Metal Slug 3 - Explosion SFX_268
+    21300538: Arcade - Metal Slug 3 - Explosion SFX_269
+    21300540: Arcade - Metal Slug 3 - Explosion SFX_270
+    21300542: Arcade - Metal Slug 3 - Explosion SFX_271
+    21300544: Arcade - Metal Slug 3 - Explosion SFX_272
+    21300546: Arcade - Metal Slug 3 - Explosion SFX_273
+    21300548: Arcade - Metal Slug 3 - Explosion SFX_274
+    21300550: Arcade - Metal Slug 3 - Explosion SFX_275
+    21300552: Arcade - Metal Slug 3 - Explosion SFX_276
+    21300554: Arcade - Metal Slug 3 - Explosion SFX_277
+    21300556: Arcade - Metal Slug 3 - Explosion SFX_278
+    21300558: Arcade - Metal Slug 3 - Explosion SFX_279
+    21300560: Arcade - Metal Slug 3 - Explosion SFX_280
+    21300562: Arcade - Metal Slug 3 - Explosion SFX_281
+    21300564: Arcade - Metal Slug 3 - Explosion SFX_282
+    21300566: Arcade - Metal Slug 3 - Explosion SFX_283
+    21300568: Arcade - Metal Slug 3 - Explosion SFX_284
+    21300570: Arcade - Metal Slug 3 - Explosion SFX_285
+    21300572: Arcade - Metal Slug 3 - Explosion SFX_286
+    21300574: Arcade - Metal Slug 3 - Explosion SFX_287
+    21300576: Arcade - Metal Slug 3 - Explosion SFX_288
+    21300578: Arcade - Metal Slug 3 - Explosion SFX_289
+    21300580: Arcade - Metal Slug 3 - Explosion SFX_290
+    21300582: Arcade - Metal Slug 3 - Explosion SFX_291
+    21300584: Arcade - Metal Slug 3 - Explosion SFX_292
+    21300586: Arcade - Metal Slug 3 - Explosion SFX_293
+    21300588: Arcade - Metal Slug 3 - Explosion SFX_294
+    21300590: Arcade - Metal Slug 3 - Explosion SFX_295
+    21300592: Arcade - Metal Slug 3 - Explosion SFX_296
+    21300594: Arcade - Metal Slug 3 - Explosion SFX_297
+    21300596: Arcade - Metal Slug 3 - Explosion SFX_298
+    21300598: Arcade - Metal Slug 3 - Explosion SFX_299
+    21300600: Arcade - Metal Slug 3 - Explosion SFX_300
+    21300602: Arcade - Metal Slug 3 - Explosion SFX_301
+    21300604: Arcade - Metal Slug 3 - Explosion SFX_302
+    21300606: Arcade - Metal Slug 3 - Explosion SFX_303
+    21300608: Arcade - Metal Slug 3 - Explosion SFX_304
+    21300610: Arcade - Metal Slug 3 - Explosion SFX_305
+    21300612: Arcade - Metal Slug 3 - Explosion SFX_306
+    21300614: Arcade - Metal Slug 3 - Explosion SFX_307
+    21300616: Arcade - Metal Slug 3 - Explosion SFX_308
+    21300618: Arcade - Metal Slug 3 - Explosion SFX_309
+    21300620: Arcade - Metal Slug 3 - Explosion SFX_310
+    21300622: Arcade - Metal Slug 3 - Explosion SFX_311
+    21300624: Arcade - Metal Slug 3 - Explosion SFX_312
+    21300626: Arcade - Metal Slug 3 - Explosion SFX_313
+    21300628: Arcade - Metal Slug 3 - Explosion SFX_314
+    21300630: Arcade - Metal Slug 3 - Explosion SFX_315
+    21300632: Arcade - Metal Slug 3 - Explosion SFX_316
+    21300634: Arcade - Metal Slug 3 - Explosion SFX_317
+    21300636: Arcade - Metal Slug 3 - Explosion SFX_318
+    21300638: Arcade - Metal Slug 3 - Explosion SFX_319
+    21300640: Arcade - Metal Slug 3 - Explosion SFX_320
+    21300642: Arcade - Metal Slug 3 - Explosion SFX_321
+    21300644: Arcade - Metal Slug 3 - Explosion SFX_322
+    21300646: Arcade - Metal Slug 3 - Explosion SFX_323
+    21300648: Arcade - Metal Slug 3 - Explosion SFX_324
+    21300650: Arcade - Metal Slug 3 - Explosion SFX_325
+    21300652: Arcade - Metal Slug 3 - Explosion SFX_326
+    21300654: Arcade - Metal Slug 3 - Explosion SFX_327
+    21300656: Arcade - Metal Slug 3 - Explosion SFX_328
+    21300658: Arcade - Metal Slug 3 - Explosion SFX_329
+    21300660: Arcade - Metal Slug 3 - Explosion SFX_330
+    21300662: Arcade - Metal Slug 3 - Explosion SFX_331
+    21300664: Arcade - Metal Slug 3 - Explosion SFX_332
+    21300666: Arcade - Metal Slug 3 - Explosion SFX_333
+    21300668: Arcade - Metal Slug 3 - Explosion SFX_334
+    21300670: Arcade - Metal Slug 3 - Explosion SFX_335
+    21300672: Arcade - Metal Slug 3 - Explosion SFX_336
+    21300674: Arcade - Metal Slug 3 - Explosion SFX_337
+    21300676: Arcade - Metal Slug 3 - Explosion SFX_338
+    21300678: Arcade - Metal Slug 3 - Explosion SFX_339
+    21300680: Arcade - Metal Slug 3 - Explosion SFX_340
+    21300682: Arcade - Metal Slug 3 - Explosion SFX_341
+    21300684: Arcade - Metal Slug 3 - Explosion SFX_342
+    21300686: Arcade - Metal Slug 3 - Explosion SFX_343
+    21300688: Arcade - Metal Slug 3 - Explosion SFX_344
+    21300690: Arcade - Metal Slug 3 - Explosion SFX_345
+    21300692: Arcade - Metal Slug 3 - Explosion SFX_346
+    21300694: Arcade - Metal Slug 3 - Explosion SFX_347
+    21300696: Arcade - Metal Slug 3 - Explosion SFX_348
+    21300698: Arcade - Metal Slug 3 - Explosion SFX_349
+    21300700: Arcade - Metal Slug 3 - Explosion SFX_350
+    21300702: Arcade - Metal Slug 3 - Explosion SFX_351
+    21300704: Arcade - Metal Slug 3 - Explosion SFX_352
+    21300706: Arcade - Metal Slug 3 - Explosion SFX_353
+    21300708: Arcade - Metal Slug 3 - Explosion SFX_354
+    21300710: Arcade - Metal Slug 3 - Explosion SFX_355
+    21300712: Arcade - Metal Slug 3 - Explosion SFX_356
+    21300714: Arcade - Metal Slug 3 - Explosion SFX_357
+    21300716: Arcade - Metal Slug 3 - Explosion SFX_358
+    21300718: Arcade - Metal Slug 3 - Explosion SFX_359
+    21300720: Arcade - Metal Slug 3 - Explosion SFX_360
+    21300722: Arcade - Metal Slug 3 - Explosion SFX_361
+    21300724: Arcade - Metal Slug 3 - Explosion SFX_362
+    21300726: Arcade - Metal Slug 3 - Explosion SFX_363
+    21300728: Arcade - Metal Slug 3 - Explosion SFX_364
+    21300730: Arcade - Metal Slug 3 - Explosion SFX_365
+    21300732: Arcade - Metal Slug 3 - Explosion SFX_366
+    21300734: Arcade - Metal Slug 3 - Explosion SFX_367
+    21300736: Arcade - Metal Slug 3 - Explosion SFX_368
+    21300738: Arcade - Metal Slug 3 - Explosion SFX_369
+    21300740: Arcade - Metal Slug 3 - Explosion SFX_370
+    21300742: Arcade - Metal Slug 3 - Explosion SFX_371
+    21300744: Arcade - Metal Slug 3 - Explosion SFX_372
+    21300746: Arcade - Metal Slug 3 - Explosion SFX_373
+    21300748: Arcade - Metal Slug 3 - Explosion SFX_374
+    21300750: Arcade - Metal Slug 3 - Explosion SFX_375
+    21300752: Arcade - Metal Slug 3 - Explosion SFX_376
+    21300754: Arcade - Metal Slug 3 - Explosion SFX_377
+    21300756: Arcade - Metal Slug 3 - Explosion SFX_378
+    21300758: Arcade - Metal Slug 3 - Explosion SFX_379
+    21300760: Arcade - Metal Slug 3 - Explosion SFX_380
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2995
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2995
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2998
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2998
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2998
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2998
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2998
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2998
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2998
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2998
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_10
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2999
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2998
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2998
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 3003
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2958
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2961
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2961
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2967
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2958
+        width: 27
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4210728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2959
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2969
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2976
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_22
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2998
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2899
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2905
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2905
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_26
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2905
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2904
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_28
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2905
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_29
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2906
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_30
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2904
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2842
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2845
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_33
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2851
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2846
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2855
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_36
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2848
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_37
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2838
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_38
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2838
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2838
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_40
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2841
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_41
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2859
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2810
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2820
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2823
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_45
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2816
+        width: 47
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2898
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_47
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2813
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2727
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_49
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2727
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_50
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2728
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_51
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2727
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_52
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2727
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_53
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2728
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_54
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2728
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2639
+        width: 82
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_56
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2639
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_57
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2639
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_58
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2639
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_59
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2639
+        width: 77
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_60
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2640
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2640
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_62
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2548
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2550
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_64
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2554
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_65
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2553
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_66
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2591
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_67
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2554
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_68
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2591
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_69
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2553
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_70
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2557
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_71
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2557
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2471
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2481
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2536
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2529
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2541
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_77
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2538
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2527
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_79
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2536
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_80
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2484
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_81
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2521
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_82
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2484
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_83
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2487
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_84
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2510
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_85
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2493
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_86
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2511
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_87
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2508
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_88
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2507
+        width: 89
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_89
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2502
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_90
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2475
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_91
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2364
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_92
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2364
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_93
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2364
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_94
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2362
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_95
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2362
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_96
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2362
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_97
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2362
+        width: 201
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_98
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2362
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_99
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2251
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_100
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2261
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_101
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2273
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_102
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2275
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_103
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2281
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_104
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2297
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_105
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2291
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_106
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2285
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_107
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2297
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_108
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2291
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2294
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_110
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2201
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_111
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2196
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_112
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2212
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_113
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2211
+        width: 115
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_114
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2190
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_115
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2184
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_116
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2027
+        width: 58
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_117
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2027
+        width: 64
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_118
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2174
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_119
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2025
+        width: 65
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_120
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2175
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_121
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2030
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_122
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2030
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_123
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2028
+        width: 123
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_124
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2027
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_125
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2027
+        width: 46
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_126
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2027
+        width: 51
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_127
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2025
+        width: 64
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_128
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1860
+        width: 131
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_129
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1860
+        width: 66
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_130
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1862
+        width: 198
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_131
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1886
+        width: 65
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_132
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1893
+        width: 65
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_133
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1725
+        width: 65
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_134
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1731
+        width: 137
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_135
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1743
+        width: 70
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_136
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1756
+        width: 136
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_137
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1762
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_138
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1774
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_139
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1768
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_140
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1657
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_141
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1664
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_142
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1682
+        width: 49
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_143
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1680
+        width: 90
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_144
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1664
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_145
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1645
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_146
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1655
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_147
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1649
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_148
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1582
+        width: 93
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_149
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1582
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_150
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1582
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_151
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1582
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_152
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1582
+        width: 194
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_153
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1578
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_154
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1578
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_155
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1541
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1538
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_157
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1535
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_158
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1557
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_159
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1568
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_160
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1539
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_161
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1539
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_162
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1539
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_163
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1539
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_164
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1539
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_165
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1560
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_166
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1535
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_167
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1553
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_168
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1532
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_169
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1533
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_170
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1474
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_171
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1474
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_172
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1474
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_173
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1472
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_174
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1472
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_175
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1472
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_176
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1472
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_177
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1472
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_178
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1472
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_179
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1474
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_180
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1475
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_181
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1475
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_182
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1475
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_183
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1413
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_184
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1415
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_185
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1417
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_186
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1441
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_187
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1443
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_188
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1453
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_189
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1456
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_190
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1458
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_191
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1459
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_192
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1423
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_193
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1438
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_194
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1438
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_195
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1438
+        width: 69
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_196
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1415
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_197
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1416
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_198
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1416
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_199
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1334
+        width: 166
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_200
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1334
+        width: 78
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_201
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1334
+        width: 160
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_202
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1334
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_203
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1334
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_204
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1238
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_205
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1238
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_206
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1238
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_207
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1238
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_208
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1238
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_209
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1238
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_210
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1238
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_211
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1126
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_212
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1126
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_213
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1126
+        width: 156
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_214
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1132
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_215
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1126
+        width: 76
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_216
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1135
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_217
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1128
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_218
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_219
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1134
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_220
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_221
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1128
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_222
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1128
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_223
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1128
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_224
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1128
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_225
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1129
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_226
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1129
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_227
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_228
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1128
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_229
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1128
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_230
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_231
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1036
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_232
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1048
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_233
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1056
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_234
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_235
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1100
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_236
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1117
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_237
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1114
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_238
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1104
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_239
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1113
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_240
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1107
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_241
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1071
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_242
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1091
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_243
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1074
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_244
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1083
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_245
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1061
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_246
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1062
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_247
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1086
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_248
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1089
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_249
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1056
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_250
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1070
+        width: 61
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_251
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1052
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_252
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1056
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_253
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1037
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_254
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1013
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_255
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1013
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_256
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1012
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_257
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1013
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_258
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 941
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_259
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 941
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_260
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 941
+        width: 164
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_261
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 941
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_262
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 941
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_263
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 979
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_264
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 941
+        width: 150
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_265
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 872
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_266
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 872
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_267
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 899
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_268
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 899
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_269
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 897
+        width: 107
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_270
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 899
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_271
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 897
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_272
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 805
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_273
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 805
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_274
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 805
+        width: 164
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_275
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 805
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_276
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 805
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_277
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 844
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_278
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 805
+        width: 150
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_279
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 737
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_280
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 737
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_281
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 759
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_282
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 759
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_283
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 758
+        width: 110
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_284
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 758
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_285
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 724
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_286
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 725
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_287
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 725
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_288
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 725
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_289
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 725
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_290
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 725
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_291
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 725
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_292
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 725
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_293
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 725
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_294
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 724
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_295
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 657
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_296
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 655
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_297
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 655
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_298
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 655
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_299
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 655
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_300
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 655
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_301
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 655
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_302
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 655
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_303
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 655
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_304
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 716
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_305
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 655
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_306
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 716
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_307
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 710
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_308
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 706
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_309
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 695
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_310
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 695
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_311
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 612
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_312
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 631
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_313
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 612
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_314
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 626
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_315
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 634
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_316
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 627
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_317
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 620
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_318
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 612
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_319
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 594
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_320
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 594
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_321
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 594
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_322
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 553
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_323
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 553
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_324
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 553
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_325
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 553
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_326
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 581
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_327
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 553
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_328
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 553
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_329
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 553
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_330
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 553
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_331
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 579
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_332
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 568
+        width: 81
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_333
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 579
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_334
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 579
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_335
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 569
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_336
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 568
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_337
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 568
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_338
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 554
+        width: 83
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_339
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 568
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_340
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 557
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_341
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 556
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_342
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 440
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_343
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 440
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_344
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 440
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_345
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 438
+        width: 89
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_346
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 440
+        width: 94
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_347
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 319
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_348
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 319
+        width: 106
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_349
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 319
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_350
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 319
+        width: 109
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_351
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 319
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_352
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 190
+        width: 110
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_353
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 201
+        width: 109
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_354
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 73
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_355
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 74
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_356
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 77
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_357
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 76
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_358
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 77
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_359
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 77
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_360
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 80
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_361
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 77
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_362
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 76
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_363
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 80
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_364
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_365
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 22
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_366
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 30
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_367
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 30
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_368
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 28
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_369
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 30
+        width: 57
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_370
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2844
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_371
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2842
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_372
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2902
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_373
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2903
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_374
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2906
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_375
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 439
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_376
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 192
+        width: 114
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_377
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 205
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_378
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 192
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_379
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 77
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Arcade - Metal Slug 3 - Explosion SFX_380
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 22
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
