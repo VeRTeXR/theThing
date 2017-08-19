@@ -9,7 +9,7 @@ public class AnimationTesterControl : MonoBehaviour {
 	public float JumpHeight = 10f;
 	public float TimeToJumpApex = 0.4f;
 	public float MoveSpeed = 15f;
-	public float accelerationTimeAirborne = 0.2f; 		// F U C K I N G   F I X   T H I S ! 
+	public float accelerationTimeAirborne = 0.2f; 
 	public float accelerationTimeGrounded = 0.1f; 
 
 	private float JumpVelocity;
