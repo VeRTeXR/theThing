@@ -160,8 +160,6 @@ public class Player : MonoBehaviour {
 			if (_controller.collisions.below) {
 				velocity.y += jumpVelocity;
 			}
-			//maybe change to hold?????
-			//hold for hover, should be time out for dropping
 		}
 
 		if (Input.GetKeyDown (KeyCode.Z)) {
@@ -209,9 +207,11 @@ public class Player : MonoBehaviour {
 		 {
 			 _playerHp -= 1;
 		 }
+		 
 		if (c.gameObject.CompareTag("BoostBlock")) {
+			Debug.Log("col");
 				OnBoostBlock = true;
-				velocity.y = _boostSpeed; 
+				velocity.y = velocity.y + _boostSpeed; 
 		}	
  	}
 
