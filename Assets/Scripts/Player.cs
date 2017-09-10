@@ -73,8 +73,6 @@ public class Player : MonoBehaviour {
 			if(_controller.collisions.below) 
 				airTime = 0;
 		}
-	
-
 	}
 
 
