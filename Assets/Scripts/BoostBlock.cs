@@ -17,8 +17,7 @@ public class BoostBlock : MonoBehaviour {
 		{
 			player = c.gameObject.GetComponent<Player>();
 			player.OnBoostBlock = true;
-			player.velocity.y =+ player.velocity.y + boostSpeed;
-
+			player.BoostSpeed = boostSpeed;
 		}
 		else
 		{
