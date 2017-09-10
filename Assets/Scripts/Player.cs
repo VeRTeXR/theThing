@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
 	private float moveSpeed = 15;
 	private float restartLevelDelay = 0.2f;
 	public bool OnBoostBlock;
-	private float _boostSpeed = 50;
+	public float BoostSpeed;
 	private float _buttoncooldown = 0.5f;
 	private int _buttoncount = 0;
 	private int _dashcount = 0;
@@ -67,7 +67,7 @@ public class Player : MonoBehaviour {
 		}
 	
 		if (OnBoostBlock) {
-			velocity.y += gravity * Time.deltaTime;
+			velocity.y += velocity.y + BoostSpeed;
 		}
 
 		if(_isHoldingWeapon) {
@@ -82,10 +82,10 @@ public class Player : MonoBehaviour {
 		/////
 		//////
 
-		if(!_controller.collisions.below)
+		if (!_controller.collisions.below)
 		{
 			airTime += Time.deltaTime;
-			if(_controller.collisions.below) 
+			if (_controller.collisions.below)
 			{
 				airTime = 0;
 			}
@@ -180,9 +180,8 @@ public class Player : MonoBehaviour {
 		float targetVelocityX = input.x * moveSpeed;
 		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref _velocityXSmoothing, (_controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
 		velocity.y += gravity * Time.deltaTime;
-		OnBoostBlock = false;
 		_controller.Move (velocity * Time.deltaTime);
-	
+		OnBoostBlock = false;
 	}
 
 	void OnCollisionEnter2D (Collision2D c)
@@ -209,9 +208,8 @@ public class Player : MonoBehaviour {
 		 }
 		 
 		if (c.gameObject.CompareTag("BoostBlock")) {
-			Debug.Log("col");
 				OnBoostBlock = true;
-				velocity.y = velocity.y + _boostSpeed; 
+				//velocity.y = velocity.y + _boostSpeed; 
 		}	
  	}
 
