@@ -66,15 +66,13 @@ public class Player : MonoBehaviour {
 		if (_controller.collisions.above || _controller.collisions.below) 
 			velocity.y = 0;
 		if (OnBoostBlock) 
-			velocity.y += gravity * Time.deltaTime;
+			velocity.y += velocity.y + BoostSpeed;
 		if(!_controller.collisions.below)
 		{
 			airTime += Time.deltaTime;
 			if(_controller.collisions.below) 
 				airTime = 0;
 		}
-	
-
 	}
 
 

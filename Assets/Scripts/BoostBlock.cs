@@ -15,6 +15,7 @@ public class BoostBlock : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D c) {
 		if(c.gameObject.CompareTag("Player")) 
 		{
+			Debug.Log("cuck");
 			player = c.gameObject.GetComponent<Player>();
 			player.OnBoostBlock = true;
 			player.BoostSpeed = boostSpeed;
