@@ -18,9 +18,10 @@ public class EnemyScript : MonoBehaviour {
 	public AudioClip explosion;
 	public GameObject EnemyBullet;
 	public float shotCooldown = 0.3f;
+	public float idleTimer;
 	public GameObject BodyPart;
 	private int _totalBodyPart = 7;
-
+	
 
 	//** mover code move here **//
 	public Waypoint[] wayPoints; // create an auto fill obj. for this waypoint list, it should be active filling 
@@ -31,8 +32,37 @@ public class EnemyScript : MonoBehaviour {
 	private int currentIndex   = 0;
 	private bool isWaiting     = false;
 	private float speedStorage = 0;
-	//  delet this
+	//
+	
+	private bool _isIdling = true;
+	private bool _isEngaging = false;
 
+
+	public virtual IEnumerator Idle()
+	{
+		_isEngaging = false;
+
+		while (_isIdling)
+		{
+			Debug.Log("Idling");
+			yield return null;
+		}
+
+		yield return null;
+	}
+
+	public virtual IEnumerator Engage(GameObject go)
+	{
+		_isIdling = false;
+		_isEngaging = true;
+		Debug.Log(gameObject.name + "is engaging :: " + go.gameObject.name);
+		while (_isEngaging)
+		{
+			Debug.Log("cuck");
+		}
+		yield return null;
+	}
+	
 	IEnumerator Start()
 	{
 		var creep  = gameObject.AddComponent<Creep>();
@@ -64,35 +94,40 @@ public class EnemyScript : MonoBehaviour {
 			}
 
 
+	void Awake()
+	{
+		StartCoroutine(Idle());
+	}
+	
 	void Update ()
 	{
 		
 		float z = Mathf.Atan2 ((Player.transform.position.y - transform.position.y),
 			          (Player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90; 
-		transform.eulerAngles = new Vector3 (0, 0, z);
-		GetComponent<Rigidbody2D>().velocity = (Player.transform.position - transform.position);
-		GetComponent<Rigidbody2D>().AddForce (gameObject.transform.up * speed); //movement code
+		//transform.eulerAngles = new Vector3 (0, 0, z);
+		//GetComponent<Rigidbody2D>().velocity = (Player.transform.position - transform.position);
+		//GetComponent<Rigidbody2D>().AddForce (gameObject.transform.up * speed); //movement code
 		enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
 
 
 
-		if (enemyHP <= 0) 
-		{
-			// enemy destroyed maybe dropping his weapon??????
-			//Instantiate(onHoldWeapon, transform.position, transform.rotation);
-			Instantiate(Explosion, transform.position, transform.rotation);
-			OnExplode();
-			FindObjectOfType<Score> ().AddPoint (point);
-			//Destroy(gameObject);
-			//thisprefabsetactive.false 
-			AudioSource.PlayClipAtPoint(explosion,transform.position);
-		}
+//		if (enemyHP <= 0) 
+//		{
+//			// enemy destroyed maybe dropping his weapon??????
+//			//Instantiate(onHoldWeapon, transform.position, transform.rotation);
+//			Instantiate(Explosion, transform.position, transform.rotation);
+//			OnExplode();
+//			FindObjectOfType<Score> ().AddPoint (point);
+//			//Destroy(gameObject);
+//			//thisprefabsetactive.false 
+//			AudioSource.PlayClipAtPoint(explosion,transform.position);
+//		}
 	}
-	
+/*	
 	/**
 	 * Pause the mover
 	 * 
-	 */
+	 #1#
 	 void Pause()
 	 {
 	 	isWaiting = !isWaiting;
@@ -103,7 +138,7 @@ public class EnemyScript : MonoBehaviour {
 	/**
 	 * Move the object towards the selected waypoint
 	 * integrate this movement shit into the normal rigidbody2d code
-	 */
+	 #1#
 	 private void MoveTowardsWaypoint()
 	 {
 		// Get the moving objects current position
@@ -154,7 +189,7 @@ public class EnemyScript : MonoBehaviour {
 	/**
 	 * Work out what the next waypoint is going to be
 	 * 
-	 */
+	 #1#
 	 private void NextWaypoint()
 	 {
 	 	if(isCircular) {
@@ -176,7 +211,7 @@ public class EnemyScript : MonoBehaviour {
 	 	}
 
 	 	currentWaypoint = wayPoints[currentIndex];
-	 }
+	 }*/
 
 
 	void OnExplode() {
@@ -193,7 +228,17 @@ public class EnemyScript : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    void OnCollisionEnter2D (Collision2D c){
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Debug.Log("aa");
+		if (other.transform.name == "Player")
+		{
+			Debug.Log("LLLLL :::" + other.transform.name);
+			//StartCoroutine(Engage(other.gameObject));
+		}
+	}
+
+/*	void OnCollisionEnter2D (Collision2D c){
 
 	    if (c.gameObject.CompareTag("PlayerBullet"))
 	    {
@@ -206,5 +251,5 @@ public class EnemyScript : MonoBehaviour {
 
 	    }
 	    //TODO::On wall collision, decrease velocity i.e. lerp the shit
-    }
+    }*/
 }
