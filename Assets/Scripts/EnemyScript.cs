@@ -58,7 +58,8 @@ public class EnemyScript : MonoBehaviour {
 		Debug.Log(gameObject.name + "is engaging :: " + go.gameObject.name);
 		while (_isEngaging)
 		{
-			Debug.Log("cuck");
+			LookAtPlayer();
+			yield return new WaitForSeconds(0.3f);
 		}
 		yield return null;
 	}
@@ -90,7 +91,6 @@ public class EnemyScript : MonoBehaviour {
 					}
 					yield return new WaitForSeconds (shotCooldown);
 				}
-
 			}
 
 
@@ -98,30 +98,35 @@ public class EnemyScript : MonoBehaviour {
 	{
 		StartCoroutine(Idle());
 	}
+
+	private void LookAtPlayer()
+	{
+		float z = Mathf.Atan2 ((Player.transform.position.y - transform.position.y),
+			          (Player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90; 
+		transform.eulerAngles = new Vector3 (0, 0, z);
+	}
+
+	private void MoveToPlayer()
+	{
+		//GetComponent<Rigidbody2D>().velocity = (Player.transform.position - transform.position);
+		//GetComponent<Rigidbody2D>().AddForce (gameObject.transform.up * speed); //movement code
+	}
 	
 	void Update ()
 	{
-		
-		float z = Mathf.Atan2 ((Player.transform.position.y - transform.position.y),
-			          (Player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90; 
-		//transform.eulerAngles = new Vector3 (0, 0, z);
-		//GetComponent<Rigidbody2D>().velocity = (Player.transform.position - transform.position);
-		//GetComponent<Rigidbody2D>().AddForce (gameObject.transform.up * speed); //movement code
 		enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
 
-
-
-//		if (enemyHP <= 0) 
-//		{
-//			// enemy destroyed maybe dropping his weapon??????
-//			//Instantiate(onHoldWeapon, transform.position, transform.rotation);
-//			Instantiate(Explosion, transform.position, transform.rotation);
-//			OnExplode();
-//			FindObjectOfType<Score> ().AddPoint (point);
-//			//Destroy(gameObject);
-//			//thisprefabsetactive.false 
-//			AudioSource.PlayClipAtPoint(explosion,transform.position);
-//		}
+		if (enemyHP <= 0) 
+		{
+			// enemy destroyed maybe dropping his weapon??????
+			//Instantiate(onHoldWeapon, transform.position, transform.rotation);
+			Instantiate(Explosion, transform.position, transform.rotation);
+			OnExplode();
+			FindObjectOfType<Score> ().AddPoint (point);
+			//Destroy(gameObject);
+			//thisprefabsetactive.false 
+			AudioSource.PlayClipAtPoint(explosion,transform.position);
+		}
 	}
 /*	
 	/**
@@ -231,14 +236,21 @@ public class EnemyScript : MonoBehaviour {
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		Debug.Log("aa");
-		if (other.transform.name == "Player")
+		if (other.CompareTag("Player"))
 		{
 			Debug.Log("LLLLL :::" + other.transform.name);
-			//StartCoroutine(Engage(other.gameObject));
+			StartCoroutine(Engage(other.gameObject));
 		}
 	}
 
-/*	void OnCollisionEnter2D (Collision2D c){
+	private void OnTriggerExit2D(Collider2D other)
+	{
+		_isEngaging = false;
+		_isIdling = true;
+		StartCoroutine(Idle());
+	}
+
+	void OnCollisionEnter2D (Collision2D c){
 
 	    if (c.gameObject.CompareTag("PlayerBullet"))
 	    {
@@ -251,5 +263,5 @@ public class EnemyScript : MonoBehaviour {
 
 	    }
 	    //TODO::On wall collision, decrease velocity i.e. lerp the shit
-    }*/
+    }
 }
