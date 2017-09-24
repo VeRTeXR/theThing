@@ -22,20 +22,8 @@ public class EnemyController: MonoBehaviour {
 	public GameObject BodyPart;
 	private int _totalBodyPart = 7;
 	
-
-	//** mover code move here **//
-	public Waypoint[] wayPoints; // create an auto fill obj. for this waypoint list, it should be active filling 
-	public bool isCircular;
-	public bool inReverse = true;
-
-	private Waypoint currentWaypoint;
-	private int currentIndex   = 0;
-	private bool isWaiting     = false;
-	private float speedStorage = 0;
-	//
-	
 	private bool _isIdling = true;
-	private bool _isEngaging = false;
+	private bool _isEngaging;
 
 
 	public virtual IEnumerator Idle()
@@ -72,10 +60,6 @@ public class EnemyController: MonoBehaviour {
 		Player = GameObject.FindWithTag("Player").transform; 
 		creep = GetComponent<Creep> (); // adding this shit in a different module then pass the thing here
 
-				if(wayPoints.Length > 0) {
-					currentWaypoint = wayPoints[0];
-				}
-				
 				if (creep.canShoot == false) 
 				{
 					yield break;
