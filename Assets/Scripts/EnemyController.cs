@@ -1,31 +1,39 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Security.Principal;
 
+[RequireComponent (typeof (Controller2D))]
 public class EnemyController: MonoBehaviour {
 
-	private int enemyHP;
-	private float speed;
-	public Transform Player;
-	public int point = 100;
-	private GameObject Explosion;
-	private GameObject ExitTest;
-	private GameObject[] BulletSpawn;
-	private int BulletSpawnSize;
-	private float explosionLifetime = 3.0f;
-	private int enemyCount;
 	public Creep creep;
 	public AudioClip explosion;
 	public GameObject EnemyBullet;
 	public float shotCooldown = 0.3f;
 	public float idleTimer;
 	public GameObject BodyPart;
-	private int _totalBodyPart = 7;
+	public Transform Player;
+	public int point = 100;
 	
+	private int enemyHP;
+	private float speed;
+	private GameObject Explosion;
+	private GameObject ExitTest;
+	private GameObject[] BulletSpawn;
+	private int BulletSpawnSize;
+	private float explosionLifetime = 3.0f;
+	private int enemyCount;
+	private int _totalBodyPart = 7;
+	private float _distanceToGround;
 	private bool _isIdling = true;
 	private bool _isEngaging;
-
-
+	private Controller2D _controller2D;
+	private Rigidbody2D _rigidbody2D;
+	private BoxCollider2D _enemyHitBox;
+	private float _gravity;
+	public Vector3 Velocity;
+	private float _airTime;
+	public bool OnBoostBlock;
+	
+	
 	public virtual IEnumerator Idle()
 	{
 		_isEngaging = false;
@@ -58,26 +66,44 @@ public class EnemyController: MonoBehaviour {
 		var creep  = gameObject.AddComponent<Creep>();
 		creep.delay = 0.3f;
 		Player = GameObject.FindWithTag("Player").transform; 
-		creep = GetComponent<Creep> (); // adding this shit in a different module then pass the thing here
-
-				if (creep.canShoot == false) 
+		creep = GetComponent<Creep> (); // adding this shit in a different component then pass the thing here
+		_rigidbody2D = GetComponent<Rigidbody2D>();
+		_controller2D = GetComponent<Controller2D>();
+		_gravity =  -(2 * 5) / Mathf.Pow (0.5f, 2);
+		//_rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionY;
+//		_enemyHitBox = GetComponent<BoxCollider2D>();
+//		_distanceToGround = _enemyHitBox.bounds.extents.y;
+		if (creep.canShoot == false) 
+				yield break;
+				
+		while (true) 
+		{
+			for (int i = 0; i < transform.childCount; i++)
+			{
+				if (transform.GetChild(i).name == "turret")
 				{
-					yield break;
-				}
-				while (true) 
-				{
-					for (int i = 0; i < transform.childCount; i++) 
-					{
-						if (transform.GetChild(i).name == "turret")
-						{
-							Transform shotPos = transform.GetChild(i);
-							creep.Shot(shotPos);
-						}
-					}
-					yield return new WaitForSeconds (shotCooldown);
+					Transform shotPos = transform.GetChild(i);
+					creep.Shot(shotPos);
 				}
 			}
-
+			yield return new WaitForSeconds (shotCooldown);
+		}
+	}
+	
+	void CollisionCheck() 
+	{
+		if (_controller2D.collisions.above || _controller2D.collisions.below) 
+			Velocity.y = 0;
+		if (OnBoostBlock) 
+			Velocity.y += Velocity.y + 0;
+		if(!_controller2D.collisions.below)
+		{
+			_airTime += Time.deltaTime;
+			if(_controller2D.collisions.below) 
+				_airTime = 0;
+		}
+	}
+	
 
 	void Awake()
 	{
@@ -93,8 +119,8 @@ public class EnemyController: MonoBehaviour {
 
 	private void MoveToPlayer()
 	{
-		GetComponent<Rigidbody2D>().velocity = (Player.transform.position - transform.position);
-		GetComponent<Rigidbody2D>().AddForce (gameObject.transform.up * speed); //movement code
+		_rigidbody2D.velocity = (Player.transform.position - transform.position);
+		_rigidbody2D.AddForce (gameObject.transform.up * speed); //movement code
 	}
 	
 	void Update ()
@@ -134,6 +160,14 @@ public class EnemyController: MonoBehaviour {
 		if (other.CompareTag("Player"))
 		{
 			Debug.Log("LLLLL :::" + other.transform.name);
+			StartCoroutine(Engage(other.gameObject));
+		}
+	}
+
+	private void OnTriggerStay2D(Collider2D other)
+	{
+		if (other.CompareTag("Player"))
+		{
 			StartCoroutine(Engage(other.gameObject));
 		}
 	}

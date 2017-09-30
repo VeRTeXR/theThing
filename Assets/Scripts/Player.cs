@@ -22,14 +22,14 @@ public class Player : MonoBehaviour {
 	private int _score;
 	private float _playerMaxEnegy;
 	private float _playerCurrentEnegy;
-	private float boosterCost;
-	private float rechargeRate;
+	private float _boosterCost;
+	private float _rechargeRate;
 
-	private float gravity;
-	public float jumpVelocity;
-	public Vector3 velocity;
+	private float _gravity;
+	public float JumpVelocity;
+	public Vector3 Velocity;
 	private float _velocityXSmoothing;
-	private float airTime = 0f;
+	private float _airTime = 0f;
 
 	private bool _isHoldingWeapon;
 	private float _playerWeaponPickupRange = 2.0f;
@@ -38,40 +38,40 @@ public class Player : MonoBehaviour {
 	private float _playerWeaponThrowForce;
 	private LayerMask _pickableObjectLayerMask;
 
-	Controller2D _controller;
+	Controller2D _controller2D;
 	Rigidbody2D _rigidbody;
 	Animator _animator;
 
 	IEnumerator Attack () 
 	{
 		yield return new WaitForSeconds (0.5f);
-		_controller.Shot(transform);
+		_controller2D.Shot(transform);
 		StopCoroutine("Attack");
 	}
 	
 	void Start() {
 		_playerCurrentEnegy = _playerMaxEnegy;
-		_controller = GetComponent<Controller2D> ();
+		_controller2D = GetComponent<Controller2D> ();
 		_rigidbody = GetComponent<Rigidbody2D> ();
 		_animator = GetComponent<Animator> ();
 		_playerHp = Manager.instance.HP;
         _score = Manager.instance.score;
-		gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpApex, 2);
-		jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-		print ("Gravity: " + gravity + "  Jump Velocity: " + jumpVelocity);
+		_gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpApex, 2);
+		JumpVelocity = Mathf.Abs(_gravity) * timeToJumpApex;
+		print ("Gravity: " + _gravity + "  Jump Velocity: " + JumpVelocity);
 	}
 
 	void CollisionCheck() 
 	{
-		if (_controller.collisions.above || _controller.collisions.below) 
-			velocity.y = 0;
+		if (_controller2D.collisions.above || _controller2D.collisions.below) 
+			Velocity.y = 0;
 		if (OnBoostBlock) 
-			velocity.y += velocity.y + BoostSpeed;
-		if(!_controller.collisions.below)
+			Velocity.y += Velocity.y + BoostSpeed;
+		if(!_controller2D.collisions.below)
 		{
-			airTime += Time.deltaTime;
-			if(_controller.collisions.below) 
-				airTime = 0;
+			_airTime += Time.deltaTime;
+			if(_controller2D.collisions.below) 
+				_airTime = 0;
 		}
 	}
 
@@ -101,12 +101,12 @@ public class Player : MonoBehaviour {
 
 	void Jump () 
 	{
-		if (airTime > 0 && _playerCurrentEnegy > boosterCost) {
-			_playerCurrentEnegy = _playerCurrentEnegy - boosterCost;
-			velocity.y += jumpVelocity / 2; // kinda hovers now if u repeatedly tap on it
+		if (_airTime > 0 && _playerCurrentEnegy > _boosterCost) {
+			_playerCurrentEnegy = _playerCurrentEnegy - _boosterCost;
+			Velocity.y += JumpVelocity / 2; // kinda hovers now if u repeatedly tap on it
 		} 
-		if (_controller.collisions.below) {
-			velocity.y += jumpVelocity;
+		if (_controller2D.collisions.below) {
+			Velocity.y += JumpVelocity;
 		}
 		//maybe change to hold?????
 		//hold for hover, should be time out for dropping
@@ -128,18 +128,18 @@ public class Player : MonoBehaviour {
 		/////
 		//////
 
-		if (!_controller.collisions.below)
+		if (!_controller2D.collisions.below)
 		{
-			airTime += Time.deltaTime;
-			if (_controller.collisions.below)
+			_airTime += Time.deltaTime;
+			if (_controller2D.collisions.below)
 			{
-				airTime = 0;
+				_airTime = 0;
 			}
 		}
 
 		if(_playerCurrentEnegy < _playerMaxEnegy) 
 		{
-			_playerCurrentEnegy += rechargeRate * Time.deltaTime;
+			_playerCurrentEnegy += _rechargeRate * Time.deltaTime;
 		}
 
 		if (Input.GetKeyDown(KeyCode.E)){
@@ -162,7 +162,7 @@ public class Player : MonoBehaviour {
 		{
 			if(_buttoncooldown > 0 && _buttoncount == 1) {
 					_dashcount++;
-					_controller.Dash(input, _dashForce);
+					_controller2D.Dash(input, _dashForce);
 			}
 			else {
 				_buttoncooldown = 0.5f;
@@ -197,9 +197,9 @@ public class Player : MonoBehaviour {
 		}
 
 		float targetVelocityX = input.x * moveSpeed;
-		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref _velocityXSmoothing, (_controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
-		velocity.y += gravity * Time.deltaTime;
-		_controller.Move (velocity * Time.deltaTime);
+		Velocity.x = Mathf.SmoothDamp (Velocity.x, targetVelocityX, ref _velocityXSmoothing, (_controller2D.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
+		Velocity.y += _gravity * Time.deltaTime;
+		_controller2D.Move (Velocity * Time.deltaTime);
 		OnBoostBlock = false;
 	}
 
@@ -210,6 +210,10 @@ public class Player : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D c)
  	{
+		 if (c.gameObject.CompareTag("Enemy"))
+		 {
+			 _playerHp -= 1;
+		 }
  		
  		if (c.gameObject.CompareTag("Exit"))
 		 {
