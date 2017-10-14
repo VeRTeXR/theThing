@@ -4,7 +4,6 @@ using System.Collections;
 [RequireComponent (typeof (Controller2D))]
 public class EnemyController: MonoBehaviour {
 
-	public Creep creep;
 	public AudioClip explosion;
 	public GameObject EnemyBullet;
 	public float shotCooldown = 0.3f;
@@ -12,6 +11,8 @@ public class EnemyController: MonoBehaviour {
 	public GameObject BodyPart;
 	public Transform Player;
 	public int point = 100;
+	float accelerationTimeAirborne = 0.2f; 		
+	float accelerationTimeGrounded = 0.1f; 	
 	
 	private int enemyHP;
 	private float speed;
@@ -23,24 +24,25 @@ public class EnemyController: MonoBehaviour {
 	private int enemyCount;
 	private int _totalBodyPart = 7;
 	private float _distanceToGround;
-	private bool _isIdling = true;
-	private bool _isEngaging;
+	public bool IsIdling = true;
+	public bool IsEngaging;
 	private Controller2D _controller2D;
-	private Rigidbody2D _rigidbody2D;
+	public Rigidbody2D Rigidbody2D;
 	private BoxCollider2D _enemyHitBox;
 	private float _gravity;
 	public Vector3 Velocity;
 	private float _airTime;
 	public bool OnBoostBlock;
+	private float _velocityXSmoothing = 10f;
 	
 	
 	public virtual IEnumerator Idle()
 	{
-		_isEngaging = false;
+		IsEngaging = false;
 
-		while (_isIdling)
+		while (IsIdling)
 		{
-			Debug.Log("Idling");
+//			Debug.Log("Idling");
 			yield return null;
 		}
 
@@ -49,45 +51,26 @@ public class EnemyController: MonoBehaviour {
 
 	public virtual IEnumerator Engage(GameObject go)
 	{
-		_isIdling = false;
-		_isEngaging = true;
-		Debug.Log(gameObject.name + "is engaging :: " + go.gameObject.name);
-		while (_isEngaging)
+		IsIdling = false;
+		IsEngaging = true;
+//		Debug.Log(gameObject.name + "is engaging :: " + go.gameObject.name);
+		while (IsEngaging)
 		{
-			//LookAtPlayer();
+			
+			
+			LookAtPlayer();
 			MoveToPlayer();
 			yield return new WaitForSeconds(0.3f);
 		}
 		yield return null;
 	}
 	
-	IEnumerator Start()
+	void Start()
 	{
-		var creep  = gameObject.AddComponent<Creep>();
-		creep.delay = 0.3f;
 		Player = GameObject.FindWithTag("Player").transform; 
-		creep = GetComponent<Creep> (); // adding this shit in a different component then pass the thing here
-		_rigidbody2D = GetComponent<Rigidbody2D>();
+		Rigidbody2D = GetComponent<Rigidbody2D>();
 		_controller2D = GetComponent<Controller2D>();
 		_gravity =  -(2 * 5) / Mathf.Pow (0.5f, 2);
-		//_rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionY;
-//		_enemyHitBox = GetComponent<BoxCollider2D>();
-//		_distanceToGround = _enemyHitBox.bounds.extents.y;
-		if (creep.canShoot == false) 
-				yield break;
-				
-		while (true) 
-		{
-			for (int i = 0; i < transform.childCount; i++)
-			{
-				if (transform.GetChild(i).name == "turret")
-				{
-					Transform shotPos = transform.GetChild(i);
-					creep.Shot(shotPos);
-				}
-			}
-			yield return new WaitForSeconds (shotCooldown);
-		}
 	}
 	
 	void CollisionCheck() 
@@ -119,8 +102,17 @@ public class EnemyController: MonoBehaviour {
 
 	private void MoveToPlayer()
 	{
-		_rigidbody2D.velocity = (Player.transform.position - transform.position);
-		_rigidbody2D.AddForce (gameObject.transform.up * speed); //movement code
+//		_rigidbody2D.velocity = (Player.transform.position - transform.position);
+//		_rigidbody2D.AddForce (gameObject.transform.up * speed); //movement code
+		float targetVelocityX = (Player.transform.position.x - transform.position.x) * 10;
+//		Debug.Log("target  x ::: "+ targetVelocityX);
+		//Debug.LogError("cunt "+ targetVelocityX);
+		Velocity.x = Mathf.SmoothDamp(Velocity.x, targetVelocityX, ref _velocityXSmoothing, (_controller2D.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
+		
+//		Debug.Log("erreeee" + Velocity.x);
+		
+		Velocity.y = _gravity * Time.deltaTime;
+		_controller2D.Move(Velocity * Time.deltaTime);
 	}
 	
 	void Update ()
@@ -174,8 +166,8 @@ public class EnemyController: MonoBehaviour {
 
 	private void OnTriggerExit2D(Collider2D other)
 	{
-		_isEngaging = false;
-		_isIdling = true;
+		IsEngaging = false;
+		IsIdling = true;
 		StartCoroutine(Idle());
 	}
 
@@ -184,10 +176,10 @@ public class EnemyController: MonoBehaviour {
 	    if (c.gameObject.CompareTag("PlayerBullet"))
 	    {
 		    //animator.SetBool("IsATKED", true); //blink white sprite
-		    float force = 20;
+		    //float force = 20;
 		    c.gameObject.SetActive(false);
 		    enemyHP -= 1;
-		    transform.Translate(-Vector2.up * force * Time.deltaTime);
+		    //transform.Translate(-Vector2.up * force * Time.deltaTime);
 		    OnExplode();
 
 	    }
