@@ -26,10 +26,10 @@ public class EnemyController: MonoBehaviour {
 	private float _distanceToGround;
 	public bool IsIdling = true;
 	public bool IsEngaging;
-	private Controller2D _controller2D;
+	public Controller2D Controller2D;
 	public Rigidbody2D Rigidbody2D;
 	private BoxCollider2D _enemyHitBox;
-	private float _gravity;
+	internal float _gravity;
 	public Vector3 Velocity;
 	private float _airTime;
 	public bool OnBoostBlock;
@@ -56,8 +56,8 @@ public class EnemyController: MonoBehaviour {
 //		Debug.Log(gameObject.name + "is engaging :: " + go.gameObject.name);
 		while (IsEngaging)
 		{
-			LookAtPlayer();
-			MoveToPlayer();
+			//LookAtPlayer();
+			//MoveToPlayer();
 			yield return new WaitForSeconds(0.3f);
 		}
 		yield return null;
@@ -67,20 +67,20 @@ public class EnemyController: MonoBehaviour {
 	{
 		Player = GameObject.FindWithTag("Player").transform; 
 		Rigidbody2D = GetComponent<Rigidbody2D>();
-		_controller2D = GetComponent<Controller2D>();
+		Controller2D = GetComponent<Controller2D>();
 		_gravity =  -(2 * 5) / Mathf.Pow (0.5f, 2);
 	}
 	
 	void CollisionCheck() 
 	{
-		if (_controller2D.collisions.above || _controller2D.collisions.below) 
+		if (Controller2D.collisions.above || Controller2D.collisions.below) 
 			Velocity.y = 0;
 		if (OnBoostBlock) 
 			Velocity.y += Velocity.y + 0;
-		if(!_controller2D.collisions.below)
+		if(!Controller2D.collisions.below)
 		{
 			_airTime += Time.deltaTime;
-			if(_controller2D.collisions.below) 
+			if(Controller2D.collisions.below) 
 				_airTime = 0;
 		}
 	}
@@ -91,28 +91,28 @@ public class EnemyController: MonoBehaviour {
 		StartCoroutine(Idle());
 	}
 
-	private void LookAtPlayer()
+	public void  LookAtPlayer()
 	{
 		float z = Mathf.Atan2 ((Player.transform.position.y - transform.position.y),
 			          (Player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90; 
 		transform.eulerAngles = new Vector3 (0, 0, z);
 	}
 
-	private void MoveToPlayer()
+/*	public void MoveToPlayer()
 	{
 //		_rigidbody2D.velocity = (Player.transform.position - transform.position);
 //		_rigidbody2D.AddForce (gameObject.transform.up * speed); //movement code
 		float targetVelocityX = (Player.transform.position.x - transform.position.x) * 10;
 //		Debug.Log("target  x ::: "+ targetVelocityX);
 		//Debug.LogError("cunt "+ targetVelocityX);
-		Velocity.x = Mathf.SmoothDamp(Velocity.x, targetVelocityX, ref _velocityXSmoothing, (_controller2D.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
+		Velocity.x = Mathf.SmoothDamp(Velocity.x, targetVelocityX, ref _velocityXSmoothing, (Controller2D.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
 		
 //		Debug.Log("erreeee" + Velocity.x);
 		
 		Velocity.y = _gravity * Time.deltaTime;
-		_controller2D.Move(Velocity * Time.deltaTime);
+		Controller2D.Move(Velocity * Time.deltaTime);
 	}
-	
+	*/
 	void Update ()
 	{
 		enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
@@ -146,10 +146,10 @@ public class EnemyController: MonoBehaviour {
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		Debug.Log("aa");
+//		Debug.Log("aa");
 		if (other.CompareTag("Player"))
 		{
-			Debug.Log("LLLLL :::" + other.transform.name);
+//			Debug.Log("LLLLL :::" + other.transform.name);
 			StartCoroutine(Engage(other.gameObject));
 		}
 	}
