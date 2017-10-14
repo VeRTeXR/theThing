@@ -14,9 +14,9 @@ public class EnemyController: MonoBehaviour {
 	float accelerationTimeAirborne = 0.2f; 		
 	float accelerationTimeGrounded = 0.1f; 	
 	
-	private int enemyHP;
+	private int enemyHP = 1;
 	private float speed;
-	private GameObject Explosion;
+	public GameObject Explosion;
 	private GameObject ExitTest;
 	private GameObject[] BulletSpawn;
 	private int BulletSpawnSize;
@@ -56,8 +56,6 @@ public class EnemyController: MonoBehaviour {
 //		Debug.Log(gameObject.name + "is engaging :: " + go.gameObject.name);
 		while (IsEngaging)
 		{
-			
-			
 			LookAtPlayer();
 			MoveToPlayer();
 			yield return new WaitForSeconds(0.3f);
@@ -181,7 +179,6 @@ public class EnemyController: MonoBehaviour {
 		    enemyHP -= 1;
 		    //transform.Translate(-Vector2.up * force * Time.deltaTime);
 		    OnExplode();
-
 	    }
 	    //TODO::On wall collision, decrease velocity i.e. lerp the shit
     }

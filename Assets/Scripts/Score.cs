@@ -32,6 +32,7 @@ public class Score : MonoBehaviour {
 		//Debug.Log (score);
 		Manager.instance.score = score;
 		// Display both the Score and High Score
+		if (scoreGUIText == null || highScoreGUIText == null) return;
 		scoreGUIText.text = score.ToString ();
 		highScoreGUIText.text = "HighScore : " + highScore.ToString();
 
