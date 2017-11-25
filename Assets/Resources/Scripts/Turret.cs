@@ -1,10 +1,9 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Turret : EnemyController {
 
+public class Turret : EnemyController 
+{
 	public float delay;
 	public GameObject bullet;
 	public bool canShoot = true;
@@ -14,14 +13,24 @@ public class Turret : EnemyController {
 	private bool _shootToTheRight;
 	private bool _alreadyShot;
 	private GameObject _turretBarrel;
+	private float _hp;
+	private float _maxHp;
 
 	private void Awake()
 	{
+		_hp = _maxHp;
 		for (int i = 0; i < transform.childCount; i++)
 		{
 			if (transform.GetChild(i).name == "barrel")
 				_turretBarrel = transform.GetChild(i).gameObject;
 		}
+	}
+
+	public override IEnumerator IsAttacked()
+	{
+		gameObject.transform.parent.GetComponent<Renderer>().material.SetFloat("_FlashAmount", 1);
+		yield return new WaitForSeconds(0.025f);
+		gameObject.transform.parent.GetComponent<Renderer>().material.SetFloat("_FlashAmount", 0);
 	}
 
 	public override IEnumerator Engage(GameObject go)
@@ -65,9 +74,8 @@ public class Turret : EnemyController {
 		yield return null;
 	}
 	
-	public void Shot (Transform Pos) { // send in the pattern so each gun have differnt pattern maybe??
-		
-		Debug.LogError(Pos.rotation);
+	public void Shot (Transform Pos) { 
+		// send in the pattern so each gun have differnt pattern maybe??
 		var randomNumberX = Random.Range(-strayFactor, strayFactor);
 		var randomNumberY = Random.Range(-strayFactor, strayFactor);
 		var randomNumberZ = Random.Range(-strayFactor, strayFactor);
@@ -75,9 +83,24 @@ public class Turret : EnemyController {
 		GameObject obj = puller.GetComponent<ObjectPoolingScript>().GetPooledObject();
 		obj.transform.position = Pos.position;
 		obj.transform.rotation = Pos.rotation;
-		Debug.LogError("Pos Rotation ::" + Pos.rotation + "Rot::" +obj.transform.rotation);
 		//obj.transform.Rotate(randomNumberX, randomNumberY, randomNumberZ); //rotating teh shot
 		obj.SetActive(true);
 	}
 
+
+	private void OnCollisionEnter2D(Collision2D other)
+	{
+		Debug.LogError("Fucker shhitt");
+		
+		if (other.gameObject.CompareTag("PlayerBullet"))
+		{
+			_hp -= 1;
+			StartCoroutine("IsAttacked");
+		}
+		if (other.gameObject.CompareTag("Player"))
+		{
+			_hp -= 1;
+			StartCoroutine("IsAttacked");
+		}
+	}
 }

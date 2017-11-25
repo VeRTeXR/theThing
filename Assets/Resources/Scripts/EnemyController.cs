@@ -49,6 +49,13 @@ public class EnemyController: MonoBehaviour {
 		yield return null;
 	}
 
+	public virtual IEnumerator IsAttacked()
+	{
+		gameObject.GetComponent<Renderer>().material.SetFloat("_FlashAmount",1);
+		yield return new WaitForSeconds(0.025f);
+		gameObject.GetComponent<Renderer>().material.SetFloat("_FlashAmount",0);
+	}
+	
 	public virtual IEnumerator Engage(GameObject go)
 	{
 		IsIdling = false;
@@ -194,4 +201,5 @@ public class EnemyController: MonoBehaviour {
 		    OnExplode();
 	    }
     }
+
 }

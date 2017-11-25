@@ -48,6 +48,13 @@ public class Player : MonoBehaviour {
 		_controller2D.Shot(transform);
 		StopCoroutine("Attack");
 	}
+
+	IEnumerator IsAttacked()
+	{
+		gameObject.GetComponentInChildren<Renderer>().material.SetFloat("_FlashAmount", 1);
+		yield return new WaitForSeconds(0.025f);
+		gameObject.GetComponentInChildren<Renderer>().material.SetFloat("_FlashAmount", 0);
+	}
 	
 	void Start() {
 		_playerCurrentEnegy = _playerMaxEnegy;
@@ -217,6 +224,7 @@ public class Player : MonoBehaviour {
  	{
 		 if (c.gameObject.CompareTag("Enemy"))
 		 {
+			 StartCoroutine("IsAttacked");
 //			 _animator.SetTrigger();
 			 _playerHp -= 1;
 		 }
@@ -234,6 +242,7 @@ public class Player : MonoBehaviour {
 
 		 if (c.gameObject.CompareTag("EnemyBullet"))
 		 {
+			 StartCoroutine("IsAttacked");
 			 SendMessage("Damaged",c.gameObject.GetComponent<Bullet>().Dmg);
 		 }
 		 

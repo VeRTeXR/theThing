@@ -15,13 +15,6 @@ public class Grunt : EnemyController
         yield break; 
     }
 
-    private IEnumerator isAttacked()
-    {
-        gameObject.GetComponent<Renderer>().material.SetFloat("_FlashAmount",1);
-        yield return new WaitForSeconds(0.025f);
-        gameObject.GetComponent<Renderer>().material.SetFloat("_FlashAmount",0);
-
-    }
     void Start()
     {
         _animator = GetComponent<Animator>();
@@ -43,6 +36,11 @@ public class Grunt : EnemyController
     {
         Velocity.x = Player.transform.position.x - transform.position.x;
         yield return new WaitForSeconds(0.5f);
+    }
+
+    public override IEnumerator IsAttacked()
+    {
+        return base.IsAttacked();
     }
 
     public virtual IEnumerator Melee(GameObject go)
@@ -79,7 +77,7 @@ public class Grunt : EnemyController
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
             Debug.LogError("cunt");
-            StartCoroutine("isAttacked");
+            StartCoroutine("IsAttacked");
         }
     }
 }
