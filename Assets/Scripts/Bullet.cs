@@ -5,7 +5,7 @@ public class Bullet : MonoBehaviour {
 
 	public float LifeTime = 3f;
 	public float Speed = 10.0f; 
-	public int Dmg = 1;
+	public int Dmg = 10;
 	public bool Bounceable;
 
 	void OnEnable() 

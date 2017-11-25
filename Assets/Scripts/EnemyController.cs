@@ -12,7 +12,7 @@ public class EnemyController: MonoBehaviour {
 	public Transform Player;
 	public int point = 100;
 	float accelerationTimeAirborne = 0.2f; 		
-	float accelerationTimeGrounded = 0.1f; 	
+	float accelerationTimeGrounded = 0.1f;
 	
 	private int enemyHP = 1;
 	private float speed;
@@ -62,7 +62,20 @@ public class EnemyController: MonoBehaviour {
 		}
 		yield return null;
 	}
-	
+
+	public void BlinkOnHit()
+	{
+		var renderer = GetComponent<Renderer>();
+		var tempColor = renderer.material.color;
+		renderer.material.color = Color.white;
+		renderer.material.color = tempColor;
+	}
+
+	public void KnockBackOnHit()
+	{
+		//float force = c.GetComponent<Bullet>().force;
+		//transform.Translate(-Vector2.up * force * Time.deltaTime);
+	}
 	void Start()
 	{
 		Player = GameObject.FindWithTag("Player").transform; 
@@ -174,12 +187,11 @@ public class EnemyController: MonoBehaviour {
 	    if (c.gameObject.CompareTag("PlayerBullet"))
 	    {
 		    //animator.SetBool("IsATKED", true); //blink white sprite
-		    //float force = 20;
 		    c.gameObject.SetActive(false);
+		    BlinkOnHit();
+		    KnockBackOnHit();
 		    enemyHP -= 1;
-		    //transform.Translate(-Vector2.up * force * Time.deltaTime);
 		    OnExplode();
 	    }
-	    //TODO::On wall collision, decrease velocity i.e. lerp the shit
     }
 }

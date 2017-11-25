@@ -2,15 +2,29 @@
 using System.Collections;
 using UnityEngine;
 
-public class Grunt : EnemyController {
+public class Grunt : EnemyController
+{
+
+    private Animator _animator;
+    private float _meleeDamage;
+    private float enemyHp;
+    
     public override IEnumerator Idle()
     {
         Velocity.x = 0;
         yield break; 
     }
 
+    private IEnumerator isAttacked()
+    {
+        gameObject.GetComponent<Renderer>().material.SetFloat("_FlashAmount",1);
+        yield return new WaitForSeconds(0.025f);
+        gameObject.GetComponent<Renderer>().material.SetFloat("_FlashAmount",0);
+
+    }
     void Start()
     {
+        _animator = GetComponent<Animator>();
         Player = GameObject.FindWithTag("Player").transform; 
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Controller2D = GetComponent<Controller2D>();
@@ -21,21 +35,25 @@ public class Grunt : EnemyController {
     {
         if (Controller2D.collisions.above || Controller2D.collisions.below)
             Velocity.y = 0;
-           // Debug.LogError("air");
             Velocity.y += _gravity * Time.deltaTime;  
             Controller2D.Move (Velocity * Time.deltaTime);
-        Debug.Log("cucklife::"+Velocity);
-
     }
     
     public override IEnumerator Engage(GameObject go)
     {
         Velocity.x = Player.transform.position.x - transform.position.x;
-        //Debug.LogError("xxxxxx"+Velocity.x);
-        //Debug.LogError("player found");
         yield return new WaitForSeconds(0.5f);
     }
 
+    public virtual IEnumerator Melee(GameObject go)
+    {
+        if(_animator != null)
+        _animator.SetTrigger("melee");
+        
+        go.SendMessage("Damaged", _meleeDamage);
+        Debug.Log("Melee");
+        yield return new WaitForSeconds(0.3f);
+    } 
     
     void OnTriggerEnter2D(Collider2D c)
     {
@@ -43,13 +61,25 @@ public class Grunt : EnemyController {
         {
             StartCoroutine(Engage(c.gameObject));
         }
-    } 
+    }
     void OnTriggerStay2D(Collider2D c)
     {
         if (c.CompareTag("Player"))
         {
             StartCoroutine(Engage(c.gameObject));
         }
-    } 
-      
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            StartCoroutine(Melee(other.gameObject));
+        }
+        if (other.gameObject.CompareTag("PlayerBullet"))
+        {
+            Debug.LogError("cunt");
+            StartCoroutine("isAttacked");
+        }
+    }
 }

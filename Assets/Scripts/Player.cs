@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	float accelerationTimeAirborne = 0.2f; 		
 	float accelerationTimeGrounded = 0.1f; 	
 	private float moveSpeed = 15;
-	private float restartLevelDelay = 0.2f;
+	private float restartLevelDelay = 3f;
 	public bool OnBoostBlock;
 	public float BoostSpeed;
 	private float _buttoncooldown = 0.5f;
@@ -208,10 +208,16 @@ public class Player : MonoBehaviour {
 		Invoke("Restart", restartLevelDelay);
 	}
 
+	void Damaged(float dmg)
+	{
+		_playerHp -= dmg;
+	}
+	
 	void OnCollisionEnter2D (Collision2D c)
  	{
 		 if (c.gameObject.CompareTag("Enemy"))
 		 {
+//			 _animator.SetTrigger();
 			 _playerHp -= 1;
 		 }
  		
@@ -228,13 +234,18 @@ public class Player : MonoBehaviour {
 
 		 if (c.gameObject.CompareTag("EnemyBullet"))
 		 {
-			 _playerHp -= 1;
+			 SendMessage("Damaged",c.gameObject.GetComponent<Bullet>().Dmg);
 		 }
 		 
 		if (c.gameObject.CompareTag("BoostBlock")) {
 				OnBoostBlock = true;
 				//velocity.y = velocity.y + _boostSpeed; 
 		}	
+		 
+//		 if (c.gameObject.CompareTag("Obstacle") && (Controller2D.collisions.left || Controller2D.collisions.right))
+//		 {
+//			 //TODO::On wall collision, decrease velocity i.e. lerp the shit	
+//		 }
  	}
 
 	private void Restart () {

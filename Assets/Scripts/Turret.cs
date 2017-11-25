@@ -27,7 +27,6 @@ public class Turret : EnemyController {
 	public override IEnumerator Engage(GameObject go)
 	{
 		var shotDir = Player.transform.position.x - transform.position.x;
-//		Debug.Log("shotDir::::" + shotDir);
 
 		if (shotDir > 0)
 		{ 
@@ -38,7 +37,6 @@ public class Turret : EnemyController {
 		{
 			_turretBarrel.transform.eulerAngles = new Vector3(0, 0, 90);
 			_shootToTheRight = false;
-			Debug.LogError(_turretBarrel.transform.rotation);
 		}
 		
 		Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
@@ -49,10 +47,8 @@ public class Turret : EnemyController {
 
 	IEnumerator Shoot(Transform shotPos,float wait,bool shootToTheRight)
 	{
-		Debug.LogError("ShootPos" + shotPos);
 		Shot(shotPos);
 		_alreadyShot = true;
-		Debug.Log("fuck shit");
 		yield return new WaitForSeconds(wait);
 		_alreadyShot = false;
 	} 
@@ -63,7 +59,6 @@ public class Turret : EnemyController {
 
 		while (IsIdling)
 		{
-//			Debug.Log("Idling");
 			yield return null;
 		}
 
