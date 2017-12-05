@@ -49,7 +49,6 @@ public class Grunt : EnemyController
         _animator.SetTrigger("melee");
         
         go.SendMessage("Damaged", _meleeDamage);
-        Debug.Log("Melee");
         yield return new WaitForSeconds(0.3f);
     } 
     
@@ -76,7 +75,6 @@ public class Grunt : EnemyController
         }
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
-            Debug.LogError("cunt");
             StartCoroutine("IsAttacked");
         }
     }

@@ -2,426 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c39e50-dfc0-49fa-993c-d180bbcfde0d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Canvas.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Canvas.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/DonutIdle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/DonutIdle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/DonutWalk.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/DonutWalk.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Donut_0.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Donut_0.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Donut_1.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Donut_1.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En1ATK.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En1ATK.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En1ATKED.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En1ATKED.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En1Idle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En1Idle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En2ATK.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En2ATK.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En2ATKED.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En2ATKED.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En2Idle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En2Idle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En3ATK.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En3ATK.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En3ATKED.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En3ATKED.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En3Idle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En3Idle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En4ATK.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En4ATK.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En4ATKED.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En4ATKED.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En4Idle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/En4Idle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Enemy.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Enemy.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Enemy_2.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Enemy_2.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Enemy_3.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Enemy_3.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Sombra.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Animation/Sombra.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/BombBorder.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/BombBorder.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/Border.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/Border.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/Obstacle.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/Obstacle.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/SpriteFlashableMaterial.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/SpriteFlashableMaterial.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/placeholder1.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Materials/placeholder1.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Plugins.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/AnimationTester.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/AnimationTester.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/BombBlock (8).prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/BombBlock (8).prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/BombBlock.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/BombBlock.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/BoostBlock.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/BoostBlock.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueTrigger.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueTrigger.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit 1.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit 1.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosion_0.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosion_0.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Manager.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle 1 (3).prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle 1 (3).prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle 1 (9).prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle 1 (9).prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacle.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet(Clone).prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet(Clone).prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet_Pool.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet_Pool.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/SmallExplodedTile.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/SmallExplodedTile.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Spawn.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Spawn.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Turret.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Turret.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/exit.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/exit.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/giantExplosion.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/giantExplosion.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/glitch-14784912459843.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/glitch-14784912459843.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/miniBlo.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/miniBlo.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/normalExplosion.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/normalExplosion.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/normalExplosion2.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/normalExplosion2.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/placeholder.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/placeholder.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/smallExplosion.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/smallExplosion.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scene.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scene/Scene.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scene/Scene.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateTextAtLine.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateTextAtLine.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BG_Scroller.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BG_Scroller.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Billboard.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Billboard.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BlockPart.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BlockPart.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BoardManager.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BombBlock.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BombBlock.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraBound.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraBound.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Controller2D.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Controller2D.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Explosion.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Explosion.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Grabbing.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Grabbing.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Grunt.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Grunt.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunContoller.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunContoller.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunMuzzle.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunMuzzle.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunReciever.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunReciever.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunStock.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/GunStock.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Loader.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Loader.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Manager.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleScript.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleScript.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAim.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAim.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenShake.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenShake.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Spawn.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/TextBoxManager.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/TextBoxManager.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/TextFader.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/TextFader.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/TextImporter.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/TextImporter.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Turret.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Turret.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoint.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoint.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/10804525_4751695246725_259314976_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/10804525_4751695246725_259314976_o.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Bullet.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Damage.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Damage.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/DamagePlayerAnim.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/DamagePlayerAnim.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Enemy.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Enemy.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/EnemyIdle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/EnemyIdle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_0.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_0.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_1.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_1.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_10.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_10.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_2.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion_2.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Fonts.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Fonts/Makinas-Scrap-5.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Fonts/Makinas-Scrap-5.otf.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Materials.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Materials/visuals-000038591012-sln1WE-original.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Materials/visuals-000038591012-sln1WE-original.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/PlayerAtk.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/PlayerAtk.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/PlayerIdle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/PlayerIdle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/58521.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/58521.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/Arcade - Metal Slug 3 - Explosion SFX.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/Arcade - Metal Slug 3 - Explosion SFX.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/Arcade - Metal Slug 3 - Rebel Soldier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/Arcade - Metal Slug 3 - Rebel Soldier.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_0.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_0.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_23.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_23.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_342.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_342.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_48.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Explosion SFX_48.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_14.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_14.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_15.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_15.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_26.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_26.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_31.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_31.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_35.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_35.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_39.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_39.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_53.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/Arcade - Metal Slug 3 - Rebel Soldier_53.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/giantexplosion.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/giantexplosion.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/normalexplosion.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/normalexplosion.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/normalexplosion2.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/normalexplosion2.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/smallexplosion.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/smallexplosion.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderAlert.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderAlert.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderIdle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderIdle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderStand.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderStand.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderStopWalking.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderStopWalking.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderThrowingNade.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderThrowingNade.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderWalk.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/SlugPlaceholder/anim/soilderWalk.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Sombra_Idle.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Sombra_Idle.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Sombra_Running.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Sombra_Running.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Spaceship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Spaceship.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Spaceship_0.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Spaceship_0.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees1.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees1.PNG.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees2.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees2.PNG.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees3.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees3.PNG.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees4.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Trees4.PNG.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/Window.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/atked.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/atked.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/bullet test1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/bullet test1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/crsshr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/crsshr.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/cursor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/cursor.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/cursor2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/cursor2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/diraction_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/diraction_arrow.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_nebula.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_nebula.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_spacestation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_spacestation.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_star2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_star2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_star3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_star3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_star4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/element_star4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/enemy1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/enemy1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/enemy2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/enemy2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/enemy3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/enemy3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/explosionPlaceholder.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/explosionPlaceholder.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478491237547.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478491237547.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-14784912408152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-14784912408152.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-14784912459843.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-14784912459843.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-14784912459843.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-14784912459843.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575712128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575712128.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575715481.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575715481.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575756728.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575756728.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575768904.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575768904.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575768904.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575768904.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575802340.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575802340.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575814485.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitch-1478575814485.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitchbgtest.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitchbgtest.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitchstatic.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/glitchstatic.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/idle donut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/idle donut.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/mininicular.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/mininicular.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 1.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 1.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 2.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 2.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 3.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 3.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 4.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_ 4.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_.anim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_0.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_0.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_1.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_1.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_10.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_10.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_11.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_11.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_2.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_2.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_3.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_3.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_4.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_4.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_8.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_8.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_9.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/ship_9.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/sombra_idle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/sombra_idle.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/sombra_running_170827.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/sombra_running_170827.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/sombra_running_170827_0.controller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/sombra_running_170827_0.controller.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/tile_basic1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/tile_basic1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/tile_basic2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/tile_basic2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/tile_basic3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/tile_basic3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/turret 1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/turret 1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/turret.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/turret.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/viralship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/viralship.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/viralship_1 sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/viralship_1 sprite.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/viralship_2sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/viralship_2sprite.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/weapons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/weapons.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/โดนัท.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Sprite/โดนัท.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Fonts.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Fonts/Makinas-Scrap-5.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Fonts/Makinas-Scrap-5.otf.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Fonts/VCR_OSD_MONO_1.001.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Fonts/VCR_OSD_MONO_1.001.ttf.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Text/Test.txt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerBullet(Clone).prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PlayerBullet(Clone).prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Scene/Scene.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Resources/Scene/Scene.unity.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Turret.prefab" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Turret.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.coffeeStain/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.coffeeStain/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Turret.prefab.meta" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Turret.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Grunt.cs" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Grunt.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Turret.cs" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Turret.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -444,12 +34,107 @@
     <favorites_list name="coffeeStain" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Grunt.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Grunt.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+              <folding>
+                <marker date="1511631901063" expanded="false" signature="7:45" ph="..." />
+                <marker date="1511631901063" expanded="true" signature="83:1991" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="221:279" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="297:573" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="605:835" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="894:1026" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1072:1118" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1171:1357" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1403:1521" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1445:1515" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1560:1678" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1602:1672" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1734:1989" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1791:1864" ph="{...}" />
+                <marker date="1511631901063" expanded="true" signature="1921:1983" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Turret.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Turret.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <marker date="1512489023086" expanded="false" signature="6:44" ph="..." />
+                <marker date="1512489023086" expanded="true" signature="85:2956" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="436:615" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="503:612" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="660:895" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="947:1494" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1038:1140" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1147:1248" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1565:1676" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1714:1814" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1759:1789" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1830:1941" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1849:1938" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="1978:2576" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="2630:2954" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="2686:2744" ph="{...}" />
+                <marker date="1512489023086" expanded="true" signature="2789:2951" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="89" selection-end-column="52" />
+              <folding>
+                <marker date="1511629532296" expanded="false" signature="6:44" ph="..." />
+                <marker date="1511629532296" expanded="true" signature="133:5405" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1072:1198" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1117:1173" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1240:1439" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1491:1745" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1629:1721" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1637:1675" ph="/* LookAtPlayer(); ... */" />
+                <marker date="1511629532296" expanded="true" signature="1772:1944" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1975:2094" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="1981:2091" ph="/* float force = c.GetComponent&lt;Bullet&gt;().force; ... */" />
+                <marker date="1511629532296" expanded="true" signature="2108:2308" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="2334:2616" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="2518:2613" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="2633:2665" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="2695:2919" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="2921:3601" ph="/* public void MoveToPlayer() ... */" />
+                <marker date="1511629532296" expanded="true" signature="3617:4096" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="3708:4093" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="3716:3838" ph="/* enemy destroyed maybe dropping his weapon?????? ... */" />
+                <marker date="1511629532296" expanded="true" signature="3973:4027" ph="/* Destroy(gameObject); ... */" />
+                <marker date="1511629532296" expanded="true" signature="4116:4624" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="4141:4214" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="4257:4536" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="4674:4840" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="4732:4837" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="4889:4982" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="4926:4979" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="5031:5104" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="5146:5402" ph="{...}" />
+                <marker date="1511629532296" expanded="true" signature="5198:5396" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Onboost</find>
-      <find>engage</find>
       <find>velocityx</find>
       <find>velocityxsm</find>
       <find>velocityxsmoot</find>
@@ -457,7 +142,6 @@
       <find>movetoplayer</find>
       <find>enemyhp</find>
       <find>speed</find>
-      <find>start</find>
       <find>rigid</find>
       <find>shoot</find>
       <find>b</find>
@@ -478,10 +162,18 @@
       <find>flash</find>
       <find>material.SetFloat(&quot;_FlashAmount&quot;</find>
       <find>isattacked</find>
+      <find>ontrigger</find>
+      <find>start</find>
+      <find>Player</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Grunt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Turret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -496,6 +188,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grunt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Grunt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Turret.cs" />
       </list>
     </option>
   </component>
@@ -506,10 +200,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="761" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -534,7 +227,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="coffeeStain (3 projects)" />
+              <option name="myItemId" value="coffeeStain (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -657,11 +350,14 @@
       <workItem from="1511627646431" duration="1446000" />
       <workItem from="1511629126479" duration="460000" />
       <workItem from="1511629693665" duration="1384000" />
+      <workItem from="1511631763298" duration="732000" />
+      <workItem from="1511633510886" duration="274000" />
+      <workItem from="1512486688326" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40239000" />
+    <option name="totallyTimeSpent" value="43662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,21 +369,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="761" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103355706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -732,368 +429,141 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3090">
-          <caret line="208" column="5" lean-forward="false" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CheckTagInRange.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoostBlock.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Creep.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grunt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="79" column="30" lean-forward="false" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationTesterControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grunt.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Grunt.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
-          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <marker date="1511631901063" expanded="false" signature="7:45" ph="..." />
+            <marker date="1511631901063" expanded="true" signature="83:1991" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="221:279" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="297:573" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="605:835" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="894:1026" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1072:1118" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1171:1357" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1403:1521" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1445:1515" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1560:1678" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1602:1672" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1734:1989" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1791:1864" ph="{...}" />
+            <marker date="1511631901063" expanded="true" signature="1921:1983" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Turret.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="325">
+          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="89" selection-end-column="52" />
+          <folding>
+            <marker date="1511629532296" expanded="false" signature="6:44" ph="..." />
+            <marker date="1511629532296" expanded="true" signature="133:5405" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1072:1198" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1117:1173" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1240:1439" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1491:1745" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1629:1721" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1637:1675" ph="/* LookAtPlayer(); ... */" />
+            <marker date="1511629532296" expanded="true" signature="1772:1944" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1975:2094" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="1981:2091" ph="/* float force = c.GetComponent&lt;Bullet&gt;().force; ... */" />
+            <marker date="1511629532296" expanded="true" signature="2108:2308" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="2334:2616" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="2518:2613" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="2633:2665" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="2695:2919" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="2921:3601" ph="/* public void MoveToPlayer() ... */" />
+            <marker date="1511629532296" expanded="true" signature="3617:4096" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="3708:4093" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="3716:3838" ph="/* enemy destroyed maybe dropping his weapon?????? ... */" />
+            <marker date="1511629532296" expanded="true" signature="3973:4027" ph="/* Destroy(gameObject); ... */" />
+            <marker date="1511629532296" expanded="true" signature="4116:4624" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="4141:4214" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="4257:4536" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="4674:4840" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="4732:4837" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="4889:4982" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="4926:4979" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="5031:5104" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="5146:5402" ph="{...}" />
+            <marker date="1511629532296" expanded="true" signature="5198:5396" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Turret.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="405">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <marker date="1512489023086" expanded="false" signature="6:44" ph="..." />
+            <marker date="1512489023086" expanded="true" signature="85:2956" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="436:615" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="503:612" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="660:895" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="947:1494" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1038:1140" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1147:1248" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1565:1676" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1714:1814" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1759:1789" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1830:1941" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1849:1938" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="1978:2576" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="2630:2954" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="2686:2744" ph="{...}" />
+            <marker date="1512489023086" expanded="true" signature="2789:2951" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

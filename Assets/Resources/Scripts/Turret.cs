@@ -4,28 +4,29 @@ using UnityEngine;
 
 public class Turret : EnemyController 
 {
-	public float delay;
-	public GameObject bullet;
-	public bool canShoot = true;
-	public Animator anim;
-	public GameObject[] bulletList;
-	public float strayFactor;
+	public float Delay;
+	public GameObject Bullet;
+	public bool CanShoot = true;
+	public Animator Anim;
+	public GameObject[] BulletList;
+	public float StrayFactor;
+	public float MaxHp;
 	private bool _shootToTheRight;
 	private bool _alreadyShot;
 	private GameObject _turretBarrel;
 	private float _hp;
-	private float _maxHp;
+	private Collider2D _hitbox;
 
 	private void Awake()
 	{
-		_hp = _maxHp;
+		_hp = MaxHp;
 		for (int i = 0; i < transform.childCount; i++)
 		{
 			if (transform.GetChild(i).name == "barrel")
 				_turretBarrel = transform.GetChild(i).gameObject;
 		}
 	}
-
+	 
 	public override IEnumerator IsAttacked()
 	{
 		gameObject.transform.parent.GetComponent<Renderer>().material.SetFloat("_FlashAmount", 1);
@@ -73,12 +74,21 @@ public class Turret : EnemyController
 
 		yield return null;
 	}
+
+	void Update()
+	{
+		if (_hp <= 0)
+		{
+			Debug.Log("die");
+			gameObject.transform.parent.gameObject.SetActive(false);
+		}
+	}
 	
 	public void Shot (Transform Pos) { 
 		// send in the pattern so each gun have differnt pattern maybe??
-		var randomNumberX = Random.Range(-strayFactor, strayFactor);
-		var randomNumberY = Random.Range(-strayFactor, strayFactor);
-		var randomNumberZ = Random.Range(-strayFactor, strayFactor);
+		var randomNumberX = Random.Range(-StrayFactor, StrayFactor);
+		var randomNumberY = Random.Range(-StrayFactor, StrayFactor);
+		var randomNumberZ = Random.Range(-StrayFactor, StrayFactor);
 		GameObject puller = GameObject.Find ("EnemyBullet_Pool");
 		GameObject obj = puller.GetComponent<ObjectPoolingScript>().GetPooledObject();
 		obj.transform.position = Pos.position;
@@ -89,18 +99,17 @@ public class Turret : EnemyController
 
 
 	private void OnCollisionEnter2D(Collision2D other)
-	{
-		Debug.LogError("Fucker shhitt");
-		
+	{		
 		if (other.gameObject.CompareTag("PlayerBullet"))
 		{
-			_hp -= 1;
+			_hp = _hp- 1;
 			StartCoroutine("IsAttacked");
 		}
 		if (other.gameObject.CompareTag("Player"))
 		{
-			_hp -= 1;
+			_hp = _hp - 1;
 			StartCoroutine("IsAttacked");
+			Physics2D.IgnoreCollision(GetComponent<Collider2D>(), other.gameObject.GetComponent<Collider2D>());
 		}
 	}
 }
