@@ -26,6 +26,9 @@ public class Grunt : EnemyController
     
     private void Update ()
     {
+        if (enemyHp == 0)
+            StartCoroutine("die");
+        
         if (Controller2D.collisions.above || Controller2D.collisions.below)
             Velocity.y = 0;
             Velocity.y += _gravity * Time.deltaTime;  
@@ -40,6 +43,7 @@ public class Grunt : EnemyController
 
     public override IEnumerator IsAttacked()
     {
+        enemyHp = enemyHp - 1;
         return base.IsAttacked();
     }
 
@@ -75,7 +79,8 @@ public class Grunt : EnemyController
         }
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
-            StartCoroutine("IsAttacked");
+            var bullet = other.gameObject.GetComponent<Bullet>();
+            StartCoroutine("IsAttacked", other);
         }
     }
 }

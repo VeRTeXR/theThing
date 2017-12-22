@@ -164,7 +164,7 @@ public class EnemyController: MonoBehaviour {
         Destroy(gameObject);
     }
 
-	private void OnTriggerEnter2D(Collider2D other)
+	protected virtual void OnTriggerEnter2D(Collider2D other)
 	{
 //		Debug.Log("aa");
 		if (other.CompareTag("Player"))
@@ -174,7 +174,7 @@ public class EnemyController: MonoBehaviour {
 		}
 	}
 
-	private void OnTriggerStay2D(Collider2D other)
+	protected virtual void OnTriggerStay2D(Collider2D other)
 	{
 		if (other.CompareTag("Player"))
 		{
@@ -182,7 +182,7 @@ public class EnemyController: MonoBehaviour {
 		}
 	}
 
-	private void OnTriggerExit2D(Collider2D other)
+	protected virtual void OnTriggerExit2D(Collider2D other)
 	{
 		IsEngaging = false;
 		IsIdling = true;

@@ -1,5 +1,7 @@
 ﻿using System.Collections;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Turret : EnemyController 
@@ -16,6 +18,7 @@ public class Turret : EnemyController
 	private GameObject _turretBarrel;
 	private float _hp;
 	private Collider2D _hitbox;
+	private float _animationTransitionTimer;
 
 	private void Awake()
 	{
@@ -36,6 +39,7 @@ public class Turret : EnemyController
 
 	public override IEnumerator Engage(GameObject go)
 	{
+		gameObject.transform.parent.GetComponent<Animator>().SetTrigger("Engage");
 		var shotDir = Player.transform.position.x - transform.position.x;
 
 		if (shotDir > 0)
@@ -49,7 +53,20 @@ public class Turret : EnemyController
 			_shootToTheRight = false;
 		}
 		
-		Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+//		ResetAnimation();
+		if (_shootToTheRight)
+		{
+			_animationTransitionTimer = _animationTransitionTimer  + Time.deltaTime*10;
+		}
+		else
+		{
+			_animationTransitionTimer = _animationTransitionTimer  - Time.deltaTime *10;
+		}
+		
+		_animationTransitionTimer = Mathf.Clamp(_animationTransitionTimer, -1, 1);
+		gameObject.transform.parent.GetComponent<Animator>().SetFloat("Transition", _animationTransitionTimer);
+		Debug.LogError("animationtrans:::::" +_animationTransitionTimer);
+//		Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
 		yield return new WaitForSeconds(0.3f);
 		if(!_alreadyShot)
 		StartCoroutine(Shoot(_turretBarrel.transform,1, _shootToTheRight));
@@ -58,10 +75,20 @@ public class Turret : EnemyController
 	IEnumerator Shoot(Transform shotPos,float wait,bool shootToTheRight)
 	{
 		Shot(shotPos);
+//		Debug.LogError("qqqqqq:::::::::::"+animationTransitionTimer);
 		_alreadyShot = true;
+//		gameObject.transform.parent.GetComponent<Animator>().SetTrigger("Idle");
 		yield return new WaitForSeconds(wait);
 		_alreadyShot = false;
-	} 
+	}
+
+	private void ResetAnimation()
+	{
+		gameObject.transform.parent.GetComponent<Animator>().SetFloat("Transition", 0);
+//		gameObject.transform.parent.GetComponent<Animator>().ResetTrigger("EngageRight");
+//		gameObject.transform.parent.GetComponent<Animator>().ResetTrigger("EngageLeft");
+		gameObject.transform.parent.GetComponent<Animator>().ResetTrigger("Idle");
+	}
 
 	public override IEnumerator Idle()
 	{
