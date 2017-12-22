@@ -5,7 +5,7 @@ public class Explosion : MonoBehaviour {
 
 	public float explosion_maxsize = 10f;
 	public float explosion_rate = 1f;
-	public float explosion_delay = 5f;
+	public float explosion_timeout = 0.1f;
 	public float cur_rad = 0f;
 
 	public bool exploded = false;
@@ -18,10 +18,11 @@ public class Explosion : MonoBehaviour {
 
 	void Update () 
 	{	
-		explosion_delay -= Time.deltaTime;
-		if(explosion_delay <= 0)
+		explosion_timeout = explosion_timeout - Time.deltaTime;
+		if(explosion_timeout <= 0)
 		{
 			exploded = true;
+			gameObject.SetActive(false);
 		}
 
 	}

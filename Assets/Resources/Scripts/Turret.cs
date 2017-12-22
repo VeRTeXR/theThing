@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 
 public class Turret : EnemyController 
@@ -106,9 +108,17 @@ public class Turret : EnemyController
 	{
 		if (_hp <= 0)
 		{
-			Debug.Log("die");
-			gameObject.transform.parent.gameObject.SetActive(false);
+			StartCoroutine("Die");
 		}
+	}
+
+	private IEnumerator Die()
+	{
+		var smallExplosion = Resources.Load("Prefabs/smallExplosion");
+		var exp =(GameObject) Instantiate(smallExplosion);
+		exp.transform.position = transform.position;
+		gameObject.transform.parent.gameObject.SetActive(false);
+		yield break;
 	}
 	
 	public void Shot (Transform Pos) { 
