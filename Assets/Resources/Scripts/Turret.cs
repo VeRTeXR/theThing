@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections;
-using UnityEditorInternal;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections;
+using UnityEngine;\
 using Random = UnityEngine.Random;
 
 
@@ -30,6 +27,7 @@ public class Turret : EnemyController
 			if (transform.GetChild(i).name == "barrel")
 				_turretBarrel = transform.GetChild(i).gameObject;
 		}
+		Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
 	}
 	 
 	public override IEnumerator IsAttacked()
@@ -54,8 +52,6 @@ public class Turret : EnemyController
 			_turretBarrel.transform.eulerAngles = new Vector3(0, 0, 90);
 			_shootToTheRight = false;
 		}
-		
-//		ResetAnimation();
 		if (_shootToTheRight)
 		{
 			_animationTransitionTimer = _animationTransitionTimer  + Time.deltaTime*10;
@@ -67,8 +63,6 @@ public class Turret : EnemyController
 		
 		_animationTransitionTimer = Mathf.Clamp(_animationTransitionTimer, -1, 1);
 		gameObject.transform.parent.GetComponent<Animator>().SetFloat("Transition", _animationTransitionTimer);
-		Debug.LogError("animationtrans:::::" +_animationTransitionTimer);
-//		Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
 		yield return new WaitForSeconds(0.3f);
 		if(!_alreadyShot)
 		StartCoroutine(Shoot(_turretBarrel.transform,1));
@@ -78,9 +72,7 @@ public class Turret : EnemyController
 	{
 		if(_animationTransitionTimer == 1 || _animationTransitionTimer == -1)
 			Shot(shotPos);
-//		Debug.LogError("qqqqqq:::::::::::"+animationTransitionTimer);
 		_alreadyShot = true;
-//		gameObject.transform.parent.GetComponent<Animator>().SetTrigger("Idle");
 		yield return new WaitForSeconds(wait);
 		_alreadyShot = false;
 	}
@@ -88,8 +80,6 @@ public class Turret : EnemyController
 	private void ResetAnimation()
 	{
 		gameObject.transform.parent.GetComponent<Animator>().SetFloat("Transition", 0);
-//		gameObject.transform.parent.GetComponent<Animator>().ResetTrigger("EngageRight");
-//		gameObject.transform.parent.GetComponent<Animator>().ResetTrigger("EngageLeft");
 		gameObject.transform.parent.GetComponent<Animator>().ResetTrigger("Idle");
 	}
 
