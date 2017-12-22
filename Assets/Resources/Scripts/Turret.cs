@@ -71,12 +71,13 @@ public class Turret : EnemyController
 //		Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
 		yield return new WaitForSeconds(0.3f);
 		if(!_alreadyShot)
-		StartCoroutine(Shoot(_turretBarrel.transform,1, _shootToTheRight));
+		StartCoroutine(Shoot(_turretBarrel.transform,1));
 	}
 
-	IEnumerator Shoot(Transform shotPos,float wait,bool shootToTheRight)
+	private IEnumerator Shoot(Transform shotPos,float wait)
 	{
-		Shot(shotPos);
+		if(_animationTransitionTimer == 1 || _animationTransitionTimer == -1)
+			Shot(shotPos);
 //		Debug.LogError("qqqqqq:::::::::::"+animationTransitionTimer);
 		_alreadyShot = true;
 //		gameObject.transform.parent.GetComponent<Animator>().SetTrigger("Idle");
@@ -115,7 +116,7 @@ public class Turret : EnemyController
 	private IEnumerator Die()
 	{
 		var smallExplosion = Resources.Load("Prefabs/smallExplosion");
-		var exp =(GameObject) Instantiate(smallExplosion);
+		var exp = (GameObject) Instantiate(smallExplosion);
 		exp.transform.position = transform.position;
 		gameObject.transform.parent.gameObject.SetActive(false);
 		yield break;
@@ -126,8 +127,8 @@ public class Turret : EnemyController
 		var randomNumberX = Random.Range(-StrayFactor, StrayFactor);
 		var randomNumberY = Random.Range(-StrayFactor, StrayFactor);
 		var randomNumberZ = Random.Range(-StrayFactor, StrayFactor);
-		GameObject puller = GameObject.Find ("EnemyBullet_Pool");
-		GameObject obj = puller.GetComponent<ObjectPoolingScript>().GetPooledObject();
+		var puller = GameObject.Find ("EnemyBullet_Pool");
+		var obj = puller.GetComponent<ObjectPoolingScript>().GetPooledObject();
 		obj.transform.position = Pos.position;
 		obj.transform.rotation = Pos.rotation;
 		//obj.transform.Rotate(randomNumberX, randomNumberY, randomNumberZ); //rotating teh shot

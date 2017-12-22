@@ -1,53 +1,50 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Explosion : MonoBehaviour {
 
-	public float explosion_maxsize = 10f;
-	public float explosion_rate = 1f;
-	public float explosion_timeout = 0.1f;
-	public float cur_rad = 0f;
+	public float ExplosionMaxsize = 10f;
+	public float ExplosionRate = 1f;
+	public float ExplosionTimeout = 0.1f;
+	public float CurrentRadius;
 
-	public bool exploded = false;
-	CircleCollider2D explosion_rad;
+	public bool Exploded;
+	private CircleCollider2D _explosionRad;
 
-	void Start() 
+	private void Start() 
 	{
-		explosion_rad = gameObject.GetComponent<CircleCollider2D>();
+		_explosionRad = gameObject.GetComponent<CircleCollider2D>();
 	}
 
-	void Update () 
+	private void Update () 
 	{	
-		explosion_timeout = explosion_timeout - Time.deltaTime;
-		if(explosion_timeout <= 0)
+		ExplosionTimeout = ExplosionTimeout - Time.deltaTime;
+		if(ExplosionTimeout <= 0)
 		{
-			exploded = true;
+			Exploded = true;
 			gameObject.SetActive(false);
 		}
 
 	}
-	
-	void fixedUpdate() 
+
+	public void FixedUpdate() 
 	{
-		if(exploded) {
-			if(cur_rad < explosion_maxsize)
+		if(Exploded) {
+			if(CurrentRadius < ExplosionMaxsize)
 			{
-				cur_rad += explosion_rate;
+				CurrentRadius += ExplosionRate;
 			}
 			else 
 			{
-				Destroy(this.gameObject);
+				Destroy(gameObject);
 			}
 		
-			explosion_rad.radius = cur_rad;
+			_explosionRad.radius = CurrentRadius;
 		}
 	}
 
-	void OnTriggerEnter2D(Collider2D c)
+	public void OnTriggerEnter2D(Collider2D c)
 	{
-		Debug.Log(c);
-		
-		if (exploded == true)
+		if (Exploded)
 		{
 			if (c.gameObject.GetComponent<Rigidbody2D>() != null)  //&& c.gameObject.CompareTag("Player")
 			{
