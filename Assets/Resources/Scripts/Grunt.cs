@@ -5,7 +5,7 @@ using UnityEngine;
 public class Grunt : EnemyController
 {
 
-    private Animator _animator;
+    private GruntAnimator _animator;
     private float _meleeDamage;
     private float enemyHp;
     
@@ -17,7 +17,7 @@ public class Grunt : EnemyController
 
     void Start()
     {
-        _animator = GetComponent<Animator>();
+        _animator = GetComponent<GruntAnimator>();
         Player = GameObject.FindWithTag("Player").transform; 
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Controller2D = GetComponent<Controller2D>();
@@ -50,7 +50,7 @@ public class Grunt : EnemyController
     public virtual IEnumerator Melee(GameObject go)
     {
         if(_animator != null)
-        _animator.SetTrigger("melee");
+//        _animator.SetTrigger("melee");
         
         go.SendMessage("Damaged", _meleeDamage);
         yield return new WaitForSeconds(0.3f);
@@ -67,6 +67,7 @@ public class Grunt : EnemyController
     {
         if (c.CompareTag("Player"))
         {
+            _animator.SendMessage("Engage");
             StartCoroutine(Engage(c.gameObject));
         }
     }
