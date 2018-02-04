@@ -49,6 +49,17 @@ public class Player : MonoBehaviour {
 		StopCoroutine("Attack");
 	}
 
+	IEnumerator FreezeFrame(float pauseDuration)
+	{
+		float pauseEndTime = Time.realtimeSinceStartup + pauseDuration;
+		while (Time.realtimeSinceStartup < pauseEndTime)
+		{
+			Time.timeScale = 0f;
+			yield return 0;
+		}
+		Time.timeScale = 1;	
+	}
+
 	IEnumerator IsAttacked()
 	{
 		gameObject.GetComponentInChildren<Renderer>().material.SetFloat("_FlashAmount", 1);
@@ -224,6 +235,7 @@ public class Player : MonoBehaviour {
  	{
 		 if (c.gameObject.CompareTag("Enemy"))
 		 {
+			 StartCoroutine(FreezeFrame(0.15f));
 			 StartCoroutine("IsAttacked");
 //			 _animator.SetTrigger();
 			 _playerHp -= 1;
@@ -242,6 +254,7 @@ public class Player : MonoBehaviour {
 
 		 if (c.gameObject.CompareTag("EnemyBullet"))
 		 {
+			 StartCoroutine(FreezeFrame(0.15f));
 			 StartCoroutine("IsAttacked");
 			 SendMessage("Damaged",c.gameObject.GetComponent<Bullet>().Dmg);
 		 }

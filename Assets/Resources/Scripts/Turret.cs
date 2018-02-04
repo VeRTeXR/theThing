@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using UnityEditorInternal;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -19,6 +20,12 @@ public class Turret : EnemyController
 	private Collider2D _hitbox;
 	private float _animationTransitionTimer;
 
+	private void Start()
+	{
+		Anim = gameObject.transform.parent.GetComponent<Animator>();
+		Debug.LogError("llll ::: "+Anim);
+	}
+	
 	private void Awake()
 	{
 		_hp = MaxHp;
@@ -112,17 +119,20 @@ public class Turret : EnemyController
 		yield break;
 	}
 	
-	public void Shot (Transform Pos) { 
-		// send in the pattern so each gun have differnt pattern maybe??
-		var randomNumberX = Random.Range(-StrayFactor, StrayFactor);
-		var randomNumberY = Random.Range(-StrayFactor, StrayFactor);
-		var randomNumberZ = Random.Range(-StrayFactor, StrayFactor);
-		var puller = GameObject.Find ("EnemyBullet_Pool");
-		var obj = puller.GetComponent<ObjectPoolingScript>().GetPooledObject();
-		obj.transform.position = Pos.position;
-		obj.transform.rotation = Pos.rotation;
-		//obj.transform.Rotate(randomNumberX, randomNumberY, randomNumberZ); //rotating teh shot
-		obj.SetActive(true);
+	public void Shot (Transform Pos) {
+		if (gameObject.transform.parent.GetComponent<Animator>().GetFloat("Transition") < 1 ||
+		    gameObject.transform.parent.GetComponent<Animator>().GetFloat("Transition") > -1)
+		{
+			var randomNumberX = Random.Range(-StrayFactor, StrayFactor);
+			var randomNumberY = Random.Range(-StrayFactor, StrayFactor);
+			var randomNumberZ = Random.Range(-StrayFactor, StrayFactor);
+			var puller = GameObject.Find("EnemyBullet_Pool");
+			var obj = puller.GetComponent<ObjectPoolingScript>().GetPooledObject();
+			obj.transform.position = Pos.position;
+			obj.transform.rotation = Pos.rotation;
+			//obj.transform.Rotate(randomNumberX, randomNumberY, randomNumberZ); //rotating teh shot
+			obj.SetActive(true);
+		}
 	}
 
 

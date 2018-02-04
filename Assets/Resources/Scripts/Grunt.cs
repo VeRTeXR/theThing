@@ -18,6 +18,7 @@ public class Grunt : EnemyController
     void Start()
     {
         _animator = GetComponent<GruntAnimator>();
+        Debug.LogError(":::::::: "+_animator);
         Player = GameObject.FindWithTag("Player").transform; 
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Controller2D = GetComponent<Controller2D>();
@@ -37,6 +38,7 @@ public class Grunt : EnemyController
     
     public override IEnumerator Engage(GameObject go)
     {
+        
         Velocity.x = Player.transform.position.x - transform.position.x;
         yield return new WaitForSeconds(0.5f);
     }
@@ -50,7 +52,7 @@ public class Grunt : EnemyController
     public virtual IEnumerator Melee(GameObject go)
     {
         if(_animator != null)
-//        _animator.SetTrigger("melee");
+            _animator.Melee();
         
         go.SendMessage("Damaged", _meleeDamage);
         yield return new WaitForSeconds(0.3f);
@@ -59,7 +61,8 @@ public class Grunt : EnemyController
     void OnTriggerEnter2D(Collider2D c)
     {
         if (c.CompareTag("Player"))
-        {
+        {   
+            _animator.SendMessage("Engage");
             StartCoroutine(Engage(c.gameObject));
         }
     }
@@ -67,7 +70,6 @@ public class Grunt : EnemyController
     {
         if (c.CompareTag("Player"))
         {
-            _animator.SendMessage("Engage");
             StartCoroutine(Engage(c.gameObject));
         }
     }
