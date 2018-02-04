@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	float accelerationTimeAirborne = 0.2f; 		
 	float accelerationTimeGrounded = 0.1f; 	
 	private float moveSpeed = 15;
-	private float restartLevelDelay = 3f;
+	private float restartLevelDelay = 20f;
 	public bool OnBoostBlock;
 	public float BoostSpeed;
 	private float _buttoncooldown = 0.5f;
@@ -30,6 +30,7 @@ public class Player : MonoBehaviour {
 	public Vector3 Velocity;
 	private float _velocityXSmoothing;
 	private float _airTime = 0f;
+	public GameObject Explosion;
 
 	private bool _isHoldingWeapon;
 	private float _playerWeaponPickupRange = 2.0f;
@@ -96,34 +97,35 @@ public class Player : MonoBehaviour {
 
 	void PickupItem()
 	{
-		// Interact
-		/*
-			Bring up the Dialogue, Pick up guns, Trigger etc...
-			*/
-		if(!_isHoldingWeapon) 
+		if (!_isHoldingWeapon)
 		{
 			Physics2D.queriesStartInColliders = false;
-			_hit = Physics2D.Raycast(transform.position, Vector2.right*transform.localScale.x, _playerWeaponPickupRange);
-			if(_hit.collider!= null && _hit.collider.CompareTag ("Gun")) {
+			_hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, _playerWeaponPickupRange);
+			if (_hit.collider != null && _hit.collider.CompareTag("Gun"))
+			{
 				_isHoldingWeapon = true;
 			}
 		}
-		else if(Physics2D.OverlapPoint(Hold.position)) 
+		else if (Physics2D.OverlapPoint(Hold.position))
 		{
 			_isHoldingWeapon = false;
-			if (_hit.collider.gameObject.GetComponent<Rigidbody2D>() != null){
-				_hit.collider.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (transform.localScale.x,1)*_playerWeaponThrowForce;
+			if (_hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
+			{
+				_hit.collider.gameObject.GetComponent<Rigidbody2D>().velocity =
+					new Vector2(transform.localScale.x, 1) * _playerWeaponThrowForce;
 			}
 		}
 	}
 
 	void Jump () 
 	{
-		if (_airTime > 0 && _playerCurrentEnegy > _boosterCost) {
+		if (_airTime > 0 && _playerCurrentEnegy > _boosterCost)
+		{
 			_playerCurrentEnegy = _playerCurrentEnegy - _boosterCost;
-			Velocity.y += JumpVelocity / 2; // kinda hovers now if u repeatedly tap on it
-		} 
-		if (_controller2D.collisions.below) {
+			Velocity.y += JumpVelocity / 2;
+		}
+		if (_controller2D.collisions.below)
+		{
 			Velocity.y += JumpVelocity;
 		}
 		//maybe change to hold?????
@@ -134,17 +136,12 @@ public class Player : MonoBehaviour {
 	{
 		CollisionCheck ();
 
-		if(_isHoldingWeapon) {
+		if (_isHoldingWeapon)
+		{
 			_hit.collider.gameObject.transform.position = Hold.position;
 		}
 
 		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
-
-		//Control Code
-		///
-		////
-		/////
-		//////
 
 		if (!_controller2D.collisions.below)
 		{
@@ -203,12 +200,6 @@ public class Player : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			Restart();
 		}
-		
-		/////
-		////
-		///
-		//
-
 
 		if(_playerHp <= 0) {
 				Dead ();
@@ -223,7 +214,12 @@ public class Player : MonoBehaviour {
 
 	void Dead () 
 	{
+		
+		var Explosion = Resources.Load("Prefabs/giantExplosion");
+		var exp = (GameObject) Instantiate(Explosion);
+		exp.transform.localPosition = gameObject.transform.localPosition + new Vector3(0 , 2f,0);
 		Invoke("Restart", restartLevelDelay);
+		gameObject.SetActive(false);
 	}
 
 	void Damaged(float dmg)
@@ -261,7 +257,6 @@ public class Player : MonoBehaviour {
 		 
 		if (c.gameObject.CompareTag("BoostBlock")) {
 				OnBoostBlock = true;
-				//velocity.y = velocity.y + _boostSpeed; 
 		}	
 		 
 //		 if (c.gameObject.CompareTag("Obstacle") && (Controller2D.collisions.left || Controller2D.collisions.right))

@@ -28,6 +28,7 @@ public class Turret : EnemyController
 	
 	private void Awake()
 	{
+		Rigidbody2D = GetComponent<Rigidbody2D>();
 		_hp = MaxHp;
 		for (int i = 0; i < transform.childCount; i++)
 		{

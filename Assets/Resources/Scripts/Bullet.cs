@@ -8,33 +8,39 @@ public class Bullet : MonoBehaviour {
 	public int Dmg = 10;
 	public bool Bounceable;
 
-	void OnEnable() 
-		{	
-			GetComponent <Rigidbody2D> ().velocity = transform.up.normalized * Speed;
-			Invoke ("Destroy", LifeTime);
-		}
+	void OnEnable()
+	{
+		GetComponent<Rigidbody2D>().velocity = transform.up.normalized * Speed;
+		Invoke("Destroy", LifeTime);
+	}
 
-	void OnDisable () {
+	void OnDisable()
+	{
 		CancelInvoke();
 	}
 
-	void Destroy () {
+	void Destroy()
+	{
 		gameObject.SetActive(false);
 	}
 
-	void OnTriggerEnter2D (Collider2D c) {
-			Vector3 bulletdir = gameObject.transform.forward;
-			bulletdir.y = 0;
-			float knockbackForce = 1000; //knockback
-			c.gameObject.GetComponent<Rigidbody2D>().AddForce(bulletdir.normalized * knockbackForce);
-			if (Bounceable)
-			{
-				gameObject.GetComponent<Rigidbody2D>().AddForce(bulletdir.normalized);
-			}
+	void OnTriggerEnter2D(Collider2D c)
+	{
+		Vector3 bulletdir = gameObject.transform.forward;
+		bulletdir.y = 0;
+		float knockbackForce = 1000; //knockback
+		c.gameObject.GetComponent<Rigidbody2D>().AddForce(bulletdir.normalized * knockbackForce);
+		if (Bounceable)
+		{
+			gameObject.GetComponent<Rigidbody2D>().AddForce(bulletdir.normalized);
+		}
+
+		Destroy();
 	}
 
 	private void OnCollisionEnter2D(Collision2D other)
 	{
+		Destroy();
 		return;
 		
 	}
