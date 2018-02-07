@@ -40,6 +40,7 @@ public class Grunt : EnemyController
     {
         
         Velocity.x = Player.transform.position.x - transform.position.x;
+        _animator.Engage(go);
         yield return new WaitForSeconds(0.5f);
     }
 
