@@ -8,7 +8,8 @@ public class Grunt : EnemyController
     private GruntAnimator _animator;
     private float _meleeDamage;
     private float enemyHp;
-    
+    private bool _isDisengaging;
+
     public override IEnumerator Idle()
     {
         Velocity.x = 0;
@@ -18,7 +19,6 @@ public class Grunt : EnemyController
     void Start()
     {
         _animator = GetComponent<GruntAnimator>();
-        Debug.LogError(":::::::: "+_animator);
         Player = GameObject.FindWithTag("Player").transform; 
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Controller2D = GetComponent<Controller2D>();
@@ -34,13 +34,16 @@ public class Grunt : EnemyController
             Velocity.y = 0;
             Velocity.y += _gravity * Time.deltaTime;  
             Controller2D.Move (Velocity * Time.deltaTime);
+        
+        if(_isDisengaging)
+            Disengage();
     }
     
     public override IEnumerator Engage(GameObject go)
     {
         
         Velocity.x = Player.transform.position.x - transform.position.x;
-        _animator.Engage(go);
+        _animator.Engage(go, Velocity.x);
         yield return new WaitForSeconds(0.5f);
     }
 
@@ -63,7 +66,7 @@ public class Grunt : EnemyController
     {
         if (c.CompareTag("Player"))
         {   
-            _animator.SendMessage("Engage");
+//            _animator.SendMessage("Engage");
             StartCoroutine(Engage(c.gameObject));
         }
     }
@@ -74,6 +77,20 @@ public class Grunt : EnemyController
             StartCoroutine(Engage(c.gameObject));
         }
     }
+
+    private void OnTriggerExit2D(Collider2D c)
+    {
+        if (c.CompareTag("Player"))
+            _isDisengaging = true;
+    }
+
+    private void Disengage()
+    {
+        Velocity.x = Mathf.Lerp(Velocity.x, 0, Time.deltaTime);
+        _animator.Disengage();
+    }
+    
+    
 
     private void OnCollisionEnter2D(Collision2D other)
     {

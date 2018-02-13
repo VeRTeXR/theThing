@@ -29,31 +29,24 @@ public class GruntAnimator : MonoBehaviour {
 		}
 	}
 
-	public void Engage(GameObject Player)
+	public void Engage(GameObject Player, float speed)
 	{
-		_animator.SetTrigger("Engage");
+		ResetAnimationState();
+		_animator.SetFloat("Engage", speed);
 		var EngageDirection = Player.transform.position.x - transform.position.x;
 
 		if (EngageDirection > 0)
-		{ 
-//			_turretBarrel.transform.eulerAngles = new Vector3(0, 0, -90);
-			_EngageRight = true;
-		}
-		else
-		{
-//			_turretBarrel.transform.eulerAngles = new Vector3(0, 0, 90);
-			_EngageRight = false;
-		}
-		if (_EngageRight)
-		{
 			GetComponent<SpriteRenderer>().flipX = true;
-		}
 		else
-		{
 			GetComponent<SpriteRenderer>().flipX = false;
-		}
 	}
 
+	public void Disengage()
+	{
+		ResetAnimationState();
+		_animator.SetTrigger("Disengage");
+	} 
+	
 	public void Melee()
 	{
 		_animator.SetTrigger("Melee");
@@ -61,5 +54,9 @@ public class GruntAnimator : MonoBehaviour {
 
 	public void ResetAnimationState()
 	{
+		_animator.SetFloat("idleTime", 0);
+		_animator.SetFloat("Engage",0);
+		_animator.ResetTrigger("Disengage");
+		_animator.ResetTrigger("Melee");
 	}
 }
