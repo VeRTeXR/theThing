@@ -26,9 +26,16 @@ public class StartOptions : MonoBehaviour {
 		_showPanels = GetComponent<ShowPanels>();
 		PauseScript = GetComponent<Pause>();
 		_playMusic = GetComponent<PlayMusic>();
-		AnimMenuAlpha.updateMode = AnimatorUpdateMode.UnscaledTime;
 		
+		SetUnscaleUiAnimatorUpdateMode();
+
 		PauseScript.DoPause();
+	}
+
+	private void SetUnscaleUiAnimatorUpdateMode()
+	{
+		AnimMenuAlpha.updateMode = AnimatorUpdateMode.UnscaledTime;
+		AnimColorFade.updateMode = AnimatorUpdateMode.UnscaledTime;
 	}
 
 
@@ -47,8 +54,9 @@ public class StartOptions : MonoBehaviour {
 	}
 
 
-	public void HideDelayed()
+	public IEnumerator HideDelayed()
 	{
+		yield return new WaitForSecondsRealtime(FadeAlphaAnimationClip.length);
 		_showPanels.HideMenu();
 	}
 
@@ -64,7 +72,7 @@ public class StartOptions : MonoBehaviour {
 	private void FadeAndDisableMenuPanel()
 	{
 		AnimMenuAlpha.SetTrigger("fade");
-		Invoke("HideDelayed", FadeAlphaAnimationClip.length);
+		StartCoroutine("HideDelayed");
 	}
 
 	private void ChangeMusicOnStartIfAppropriate()
@@ -75,7 +83,7 @@ public class StartOptions : MonoBehaviour {
 
 	public IEnumerator UnpauseGameAfterMenuFaded()
 	{
-		yield return new WaitForSecondsRealtime(2.0f);
+		yield return new WaitUntil(() => !_showPanels.MenuPanel.gameObject.activeSelf);
 		PauseScript.UnPause();
 	}
 
