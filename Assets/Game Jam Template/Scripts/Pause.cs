@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Pause : MonoBehaviour {
 
@@ -43,7 +42,7 @@ public class Pause : MonoBehaviour {
 		//Set time.timescale to 0, this will cause animations and physics to stop updating
 		Time.timeScale = 0;
 		//call the ShowPausePanel function of the ShowPanels script
-		showPanels.ShowPausePanel ();
+//		showPanels.ShowPausePanel ();
 	}
 
 
