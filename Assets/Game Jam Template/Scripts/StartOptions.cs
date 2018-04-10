@@ -15,7 +15,7 @@ public class StartOptions : MonoBehaviour {
 	private float fastFadeIn = .01f;
 	private ShowPanels _showPanels;
 	private GameObject _player;
-
+	private GameObject _startOptionSelector; 
 
 	public void Awake()
 	{

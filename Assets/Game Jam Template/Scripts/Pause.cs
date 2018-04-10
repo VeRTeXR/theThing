@@ -19,13 +19,18 @@ public class Pause : MonoBehaviour {
 			_startScript.SetPlayerState(false);
 			_showPanels.ShowPausePanel();
 		} 
-		else if (Input.GetButtonDown ("Cancel") && _isPaused && !_startScript.InMainMenu) 
+		else if (Input.GetButtonDown ("Cancel") && _isPaused && !_startScript.InMainMenu)
 		{
 			UnPause ();
-			_startScript.SetPlayerState(true);
-			_showPanels.HidePausePanel ();
+			HidePausePanelAndEnablePlayerControl();
 		}
 	
+	}
+
+	private void HidePausePanelAndEnablePlayerControl()
+	{
+		_startScript.SetPlayerState(true);
+		_showPanels.HidePausePanel();
 	}
 
 
@@ -39,6 +44,7 @@ public class Pause : MonoBehaviour {
 	public void UnPause()
 	{
 		_isPaused = false;
+		HidePausePanelAndEnablePlayerControl();
 		Time.timeScale = 1;
 	}
 
