@@ -6,37 +6,52 @@ using System.Collections;
 public class Billboard : MonoBehaviour {
 
 
-	public Animator animator;
+	private Animator _animator;
+	private StartOptions _startOptions;
 
 	void Start () {
-		animator = GetComponent<Animator>();
-	
+		_animator = GetComponent<Animator>();
+		_startOptions = Manager.instance.StartMenu.gameObject.GetComponent<StartOptions>();
+
 	}
-	// Update is called once per frame
 	void Update () {
-		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
-	//transform.LookAt(Vector3.zero);
-	transform.rotation = Quaternion.Euler(new Vector3(0,transform.rotation.eulerAngles.y,0));
-	animator.SetFloat("vertSpeed", Mathf.Abs(input.y));
-	animator.SetFloat("speed", Mathf.Abs(input.x));
+		if (CheckIfPausedAndReturn()) return;
 
-	if(input.x > 0){
-        transform.eulerAngles = new Vector3 (0,180,0);
-        //transform.rotation = Quaternion.identity;
-	}
-    
-    if(input.x < 0) {
-    	transform.eulerAngles = new Vector3 (0,0,0);
-    }
+		Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+		//transform.LookAt(Vector3.zero);
+		transform.rotation = Quaternion.Euler(new Vector3(0, transform.rotation.eulerAngles.y, 0));
+		_animator.SetFloat("vertSpeed", Mathf.Abs(input.y));
+		_animator.SetFloat("speed", Mathf.Abs(input.x));
 
-    if(Input.GetAxisRaw("Vertical") > 0){
-        
-        transform.eulerAngles = new Vector3 (0,180,0);
-	}
-	if(Input.GetAxisRaw("Vertical") < 0){
-        
-        transform.eulerAngles = new Vector3 (0,0,0);
+		if (input.x > 0)
+		{
+			transform.eulerAngles = new Vector3(0, 180, 0);
+			//transform.rotation = Quaternion.identity;
+		}
+
+		if (input.x < 0)
+		{
+			transform.eulerAngles = new Vector3(0, 0, 0);
+		}
+
+		if (Input.GetAxisRaw("Vertical") > 0)
+		{
+			transform.eulerAngles = new Vector3(0, 180, 0);
+		}
+		if (Input.GetAxisRaw("Vertical") < 0)
+		{
+			transform.eulerAngles = new Vector3(0, 0, 0);
+		}
+
 	}
 
+	private bool CheckIfPausedAndReturn()
+	{
+		if (_startOptions)
+		{
+			if (_startOptions.PauseScript._isPaused)
+				return true;
+		}
+		return false;
 	}
 }

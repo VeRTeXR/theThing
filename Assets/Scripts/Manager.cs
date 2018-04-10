@@ -19,12 +19,13 @@ public class Manager : MonoBehaviour {
 	public float HP = 20;
 	public int level;
 	public int score;
-
+	public GameObject StartMenu;
 
 
 	private GameObject levelImage;
 	private Text levelText;
 	private bool doingSetup = true;
+	public Pause PauseScript;
 
 	// Title
 
@@ -39,17 +40,21 @@ public class Manager : MonoBehaviour {
 
 		DontDestroyOnLoad (gameObject);
 		boardScript = GetComponent<BoardManager> ();
+		StartMenu = GameObject.Find("Start Menu UI");
+		if (StartMenu != null)
+		{
+			PauseScript = StartMenu.GetComponent<Pause>();
+		}
 		InitGame ();
 	}
-	
+
 	void OnLevelWasLoaded(int index)  {
 		FindObjectOfType<Score> ().Save (); // save everything on level load
 		level++;
 		Debug.Log("level"+level);
 
-		if(GameObject.FindGameObjectWithTag("Player")==null)
-		{		//spawning here what the fuck
-			Debug.Log ("shit");
+		if(GameObject.FindGameObjectWithTag("Player") == null)
+		{
 			spawn = GameObject.FindGameObjectWithTag("Spawn");
 			Instantiate(player, spawn.transform.position, spawn.transform.rotation);
 		}
@@ -77,12 +82,8 @@ public class Manager : MonoBehaviour {
 	}
 
 	void Update () {
-		if (doingSetup) {
-			levelStartCountdown += Time.unscaledTime;
-			if (levelStartCountdown > 2)
-				Time.timeScale = 1;
-			return;
-		}
+		
+		
 
         if (level < 1)
         {
@@ -101,16 +102,16 @@ public class Manager : MonoBehaviour {
 		}
 
 
-        if (levelImage.activeSelf) {
-			if (Input.GetKeyDown (KeyCode.R)) {
-				SceneManager.LoadScene("StartScn", LoadSceneMode.Single);
-				level = -1;
-				score = 0;
-				HP = 20;
-				//Debug.Log(level);
-				//reload will actually reload from beginning
-			}
-		}
+//        if (levelImage.activeSelf) {
+//			if (Input.GetKeyDown (KeyCode.R)) {
+//				SceneManager.LoadScene("StartScn", LoadSceneMode.Single);
+//				level = -1;
+//				score = 0;
+//				HP = 20;
+//				//Debug.Log(level);
+//				//reload will actually reload from beginning
+//			}
+//		}
 	}
 
 	void HideLevelImage () {
