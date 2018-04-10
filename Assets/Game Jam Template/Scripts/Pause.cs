@@ -3,7 +3,7 @@
 public class Pause : MonoBehaviour {
 	
 	private ShowPanels _showPanels;						//Reference to the ShowPanels script used to hide and show UI panels
-	private bool _isPaused;								//Boolean to check if the game is paused or not
+	public bool _isPaused;								//Boolean to check if the game is paused or not
 	private StartOptions _startScript;					//Reference to the StartButton script
 
 	void Awake()
@@ -13,14 +13,16 @@ public class Pause : MonoBehaviour {
 	}
 	
 	private void Update () {
-		if (Input.GetButtonDown ("Cancel") && !_isPaused && !_startScript.inMainMenu) 
+		if (Input.GetButtonDown ("Cancel") && !_isPaused && !_startScript.InMainMenu) 
 		{
 			DoPause();
+			_startScript.SetPlayerState(false);
 			_showPanels.ShowPausePanel();
 		} 
-		else if (Input.GetButtonDown ("Cancel") && _isPaused && !_startScript.inMainMenu) 
+		else if (Input.GetButtonDown ("Cancel") && _isPaused && !_startScript.InMainMenu) 
 		{
 			UnPause ();
+			_startScript.SetPlayerState(true);
 			_showPanels.HidePausePanel ();
 		}
 	
