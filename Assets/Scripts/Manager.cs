@@ -30,6 +30,7 @@ public class Manager : MonoBehaviour {
 	// Title
 
 	void Start () {
+		
 		HP = 20;
 		if (instance == null) {
 			instance = this;
@@ -40,7 +41,7 @@ public class Manager : MonoBehaviour {
 
 		DontDestroyOnLoad (gameObject);
 		boardScript = GetComponent<BoardManager> ();
-		StartMenu = GameObject.Find("Start Menu UI");
+		StartMenu = GameObject.FindGameObjectWithTag("StartMenu");
 		if (StartMenu != null)
 		{
 			PauseScript = StartMenu.GetComponent<Pause>();
