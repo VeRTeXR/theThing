@@ -58,6 +58,12 @@ public class StartMenuSelection : MonoBehaviour
 			return 1;
 		return 1;
 	}
+
+	public void DisableMarker()
+	{
+		_button[0].transform.GetChild(1).gameObject.SetActive(false);
+		_button[1].transform.GetChild(1).gameObject.SetActive(false);
+	}
 	
 	private IEnumerator SwitchActiveButtonPosition()
 	{
@@ -65,14 +71,14 @@ public class StartMenuSelection : MonoBehaviour
 		{
 			_button[0].transform.GetChild(1).gameObject.SetActive(false);
 			_button[1].transform.GetChild(1).gameObject.SetActive(true);
-			yield return new WaitForSecondsRealtime(0.5f);
+			yield return new WaitForSecondsRealtime(0.1f);
 			_inputAllowed = true;
 		}
 		else
 		{
 			_button[1].transform.GetChild(1).gameObject.SetActive(false);
 			_button[0].transform.GetChild(1).gameObject.SetActive(true);
-			yield return new WaitForSecondsRealtime(0.5f);
+			yield return new WaitForSecondsRealtime(0.1f);
 			_inputAllowed = true;
 		}
 	}
