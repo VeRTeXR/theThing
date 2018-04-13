@@ -71,6 +71,7 @@ public class StartMenuSelection : MonoBehaviour
 		{
 			_button[0].transform.GetChild(1).gameObject.SetActive(false);
 			_button[1].transform.GetChild(1).gameObject.SetActive(true);
+			SetSelectedButtonPosition(1);
 			yield return new WaitForSecondsRealtime(0.1f);
 			_inputAllowed = true;
 		}
@@ -78,8 +79,35 @@ public class StartMenuSelection : MonoBehaviour
 		{
 			_button[1].transform.GetChild(1).gameObject.SetActive(false);
 			_button[0].transform.GetChild(1).gameObject.SetActive(true);
+			SetSelectedButtonPosition(0);
 			yield return new WaitForSecondsRealtime(0.1f);
 			_inputAllowed = true;
+		}
+	}
+
+	private void SetSelectedButtonPosition(int selectedButton)
+	{
+		if (selectedButton == 1)
+		{
+			for (var i = 0; i < _button[1].transform.childCount; i++)
+			{
+				_button[1].transform.GetChild(i).transform.localPosition += new Vector3(0, 9.5f, 0);
+			}
+			for (var i = 0; i < _button[0].transform.childCount; i++)
+			{
+				_button[0].transform.GetChild(i).transform.localPosition -= new Vector3(0, 9.5f, 0);
+			}
+		}
+		if (selectedButton == 0)
+		{
+			for (var i = 0; i < _button[0].transform.childCount; i++)
+			{
+				_button[0].transform.GetChild(i).transform.localPosition += new Vector3(0, 9.5f, 0);
+			}
+			for (var i = 0; i < _button[1].transform.childCount; i++)
+			{
+				_button[1].transform.GetChild(i).transform.localPosition -= new Vector3(0, 9.5f, 0);
+			}
 		}
 	}
 }
