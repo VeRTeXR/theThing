@@ -7,11 +7,13 @@ public class Billboard : MonoBehaviour {
 
 
 	private Animator _animator;
+	private GameObject _startMenuUi;
 	private StartOptions _startOptions;
 
 	void Start () {
 		_animator = GetComponent<Animator>();
-		_startOptions = Manager.instance.StartMenu.gameObject.GetComponent<StartOptions>();
+		_startMenuUi = GameObject.FindGameObjectWithTag("StartMenu");
+		_startOptions = _startMenuUi.GetComponent<StartOptions>();
 
 	}
 	void Update () {
