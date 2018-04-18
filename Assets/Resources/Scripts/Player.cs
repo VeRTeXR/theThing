@@ -74,7 +74,6 @@ public class Player : MonoBehaviour {
 		_rigidbody = GetComponent<Rigidbody2D> ();
 		_animator = GetComponent<Animator> ();
 		_playerHp = Manager.instance.HP;
-        _score = Manager.instance.score;
 		_gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpApex, 2);
 		JumpVelocity = Mathf.Abs(_gravity) * timeToJumpApex;
 		print ("Gravity: " + _gravity + "  Jump Velocity: " + JumpVelocity);
@@ -240,7 +239,6 @@ public class Player : MonoBehaviour {
  		if (c.gameObject.CompareTag("Exit"))
 		 {
 			Manager.instance.HP = _playerHp;
-			Manager.instance.score = _score;
 			//Manager.instance.gun = gun; passing onhold gun to next level also
 			 Invoke("Restart", restartLevelDelay);
        		// on scene transition sync values to manager {

@@ -2,8 +2,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Score : MonoBehaviour {
+public class Score : MonoBehaviour{
 
+	public static Score instance = null; 
+	
 	public Text scoreGUIText;
 	public Text highScoreGUIText;
 	public int GUIhighScore;
@@ -15,38 +17,37 @@ public class Score : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (instance == null)
+			instance = this;
+		else if (instance != this)
+			Destroy(gameObject);
+
+		DontDestroyOnLoad(gameObject);
 		Initialise ();
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-
 		// If the Score is higher than the High Score…
 		if (highScore < score) {
 			highScore = score;
 		}
-		if (Manager.instance.level < 1) {
-			score = 0;
-		}
 		//Debug.Log (score);
-		Manager.instance.score = score;
 		// Display both the Score and High Score
 		if (scoreGUIText == null || highScoreGUIText == null) return;
 		scoreGUIText.text = score.ToString ();
 		highScoreGUIText.text = "HighScore : " + highScore.ToString();
-
-
 	}
 
 	private void Initialise () {
-		score = Manager.instance.score;
 		highScore = PlayerPrefs.GetInt (highScoreKey, 0);
 		Debug.Log (highScore);
 		GUIhighScore = highScore;
 	}
 
-	public void AddPoint (int point) {
+	public void AddPoint(int point)
+	{
 		score = score + point;
 	}
 
@@ -57,6 +58,11 @@ public class Score : MonoBehaviour {
 		PlayerPrefs.SetInt (highScoreKey, highScore);
 		PlayerPrefs.Save ();
 		Initialise ();
+	}
+
+	public void Reset()
+	{
+		score = 0;
 	}
 }
 

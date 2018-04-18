@@ -18,9 +18,8 @@ public class Manager : MonoBehaviour {
 	public float levelStartCountdown;
 	public float HP = 20;
 	public int level;
-	public int score;
 	public GameObject StartMenu;
-
+	public GameObject ScoreManager;
 
 	private GameObject levelImage;
 	private Text levelText;
@@ -83,14 +82,11 @@ public class Manager : MonoBehaviour {
 	}
 
 	void Update () {
-		
-		
-
         if (level < 1)
         {
             HP = 20;
-			score = 0;
-			 //check score, health, reset it! 
+	        Score.instance.Reset(); //score = 0;
+	        //check score, health, reset it! 
         }
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -102,7 +98,10 @@ public class Manager : MonoBehaviour {
 			//	reload will actually reload from beginning
 		}
 
-
+		if (Input.GetKeyDown(KeyCode.Q))
+		{
+			Score.instance.AddPoint(100);
+		}
 //        if (levelImage.activeSelf) {
 //			if (Input.GetKeyDown (KeyCode.R)) {
 //				SceneManager.LoadScene("StartScn", LoadSceneMode.Single);
